@@ -1,0 +1,82 @@
+$background-color: #FFCC4D;
+$mouth: #694201;
+$light: #fff;
+$dark : #2A2F33; 
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+.container{
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.emoji{
+	width: 30rem;
+	height: 30rem;
+	background-color: $background-color;
+	border-radius: 50%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.eyes{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	
+	&_left, &_right{
+		background-color: $light;
+		border-radius: 50%;
+		display: grid;
+		place-items: center;
+	}
+	
+	&_left{
+		width: 5rem;
+		height: 5rem;
+		.dot{
+			width: 2rem;
+			height: 2rem;
+		}
+	}
+	
+	&_right{
+		width: 10rem;
+		height: 10rem;
+		margin-left: 1rem;
+		.dot{
+			width: 3.5rem;
+			height: 3.5rem;
+		}
+	}
+	
+	.dot{
+		background-color: $dark;
+		border-radius: 50%;
+		
+	}
+	
+}
+
+.mouth{
+	width: 15rem;
+	height: 9rem;
+	background-color: $mouth;
+	border-radius: 20px 20px 100px 100px;
+	position: relative;
+	
+}
