@@ -1,0 +1,117 @@
+body {
+  background-color: #C4D9FD;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.snowman {
+  display: grid;
+  position: relative;
+}
+.snowman_body, .snowman_head {
+  background-color: #eee;
+  border-radius: 50%;
+}
+.snowman_body {
+  width: 20rem;
+  height: 20rem;
+}
+.snowman_head {
+  width: 10rem;
+  height: 10rem;
+  place-self: center;
+  position: relative;
+}
+.snowman_scarf {
+  background-color: #151a4f;
+  width: 10rem;
+  height: 3rem;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+.snowman_scarf::before {
+  content: "";
+  position: absolute;
+  top: 42%;
+  left: 91%;
+  background-color: #151a4f;
+  width: 8rem;
+  height: 3rem;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+.snowman_scarf::after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 54%;
+  background-color: #23286b;
+  width: 9.5rem;
+  height: 3rem;
+  -webkit-transform: rotate(53deg);
+          transform: rotate(53deg);
+  -webkit-clip-path: polygon(24% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(24% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.snowman .left-eye, .snowman .right-eye {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 40%;
+}
+.snowman .left-eye {
+  left: 30%;
+}
+.snowman .right-eye {
+  right: 30%;
+}
+.snowman .noise {
+  width: 0;
+  height: 0;
+  border-top: 15px solid  #e94b48;
+  border-left: 20px solid transparent;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  -webkit-transform: translatey(-50%);
+          transform: translatey(-50%);
+}
+.snowman .hat {
+  background-color: #98bdf8;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+.snowman .hat-1 {
+  top: -20px;
+  width: 7rem;
+  height: 4rem;
+}
+.snowman .hat-2 {
+  width: 10rem;
+  height: 1rem;
+  top: 1rem;
+}
+.snowman .hat-2::after {
+  content: '';
+  position: absolute;
+  width: 9rem;
+  height: 1rem;
+  background-color: rgba(217, 218, 225, 0.7);
+  left: .5rem;
+  top: 1rem;
+}
