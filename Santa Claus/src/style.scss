@@ -1,0 +1,149 @@
+:root{
+	--hat-dark: #d62929;
+	--hat-light: #e94a47;
+	--light: #eee;
+	--face: #febbb3;
+	--glass:#1f2569;	
+}
+
+html{
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+body{
+	background-color: #c4d9fd;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.santa{
+	width: 22rem;
+	display: grid;
+	place-items: center;
+	transition: 1s scale;
+	
+	&:hover{
+		transition: 1s scale;
+		scale: 1.5;
+	}
+	
+}
+.hat{
+	width: 17rem;
+	position: relative;
+	height: 11rem;
+	background-color: var(--light);
+	box-shadow: 0px 7px 3px rgba(0,0,0,.15);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	&_inner{
+		width: 17rem;
+		height: 7rem;
+		background-color: var(--hat-dark);
+		border-radius: 5px;
+	}
+	
+	&_top{
+		border-left: 170px solid transparent;
+		border-top: 10rem solid var(--hat-light);
+		position: absolute;
+		top: 0;
+		border-radius: 5px;
+	}
+	
+	&_pompon{
+		width: 35px;
+		height: 35px;
+		background-color:var(--hat-light);
+		border-radius: 100px;
+		position: absolute;
+		bottom: -13px;
+		right: -17px;
+		box-shadow: -6px 2px 3px rgba(0,0,0,.15), -5px 5px 3px rgba(0,0,0,.15);
+	}
+	
+	&_shadow{
+		width: 18rem;
+		height: 5px;
+		background-color:  rgba(0, 0, 0, 0.1);
+		transform: rotate(31deg);
+		position: absolute;
+		top: 46px;
+		left: -10px;
+		
+	}
+	
+}
+.face{
+	width: 17rem;
+	background-color: var(--face);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	
+	.glasses{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		
+		&_left, &_right{
+			border: 5px solid var(--glass);
+			width: 3rem;
+			height: 3rem;
+			border-radius: 100px;
+			z-index: 2;
+		}
+				
+		&_mid{
+			background-color: var(--glass);
+			width: 2rem;
+			height: 2rem;
+			border-radius: 100px 0 100px 0;
+			transform: rotate(45deg);
+			position: relative;
+			margin-left: 2px;
+			margin-right: 2px;
+			margin-top: -13px;
+				
+			&::after{
+				content: "";
+				position: absolute;
+				bottom: -10px;
+				right: -10px;
+				transform: translate(-7px, -7px);
+				width: 2rem;
+				height: 2rem;
+				border-radius: 100px 0 100px 0;
+				background-color: var(--face);
+			}
+		}
+	}
+}
+.body{
+	display: flex;
+	justify-content: space-between;
+		
+	&_left, &_right{
+		width: 11rem;
+		height: 5rem;
+		background-color: var(--light);
+		border-radius: 0 0 100px 100px;
+	}
+
+}
+
+.snows{	
+	.snow{
+		width: 4px;
+		height: 4px;
+		border-radius: 50%;
+		background-color: var(--light);
+		
+		position: absolute;
+	
+		
+	}
+}
