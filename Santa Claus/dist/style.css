@@ -117,21 +117,66 @@ body {
   background-color: var(--face);
 }
 
-.body {
+.mustache {
   display: flex;
   justify-content: space-between;
 }
-.body_left, .body_right {
+.mustache_left, .mustache_right {
   width: 11rem;
   height: 5rem;
   background-color: var(--light);
   border-radius: 0 0 100px 100px;
 }
 
+.snows {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
 .snows .snow {
   width: 4px;
   height: 4px;
   border-radius: 50%;
   background-color: var(--light);
-  position: absolute;
+  position: relative;
+}
+.snows .snow:nth-child(1) {
+  top: 2px;
+  left: 55px;
+}
+.snows .snow:nth-child(2) {
+  top: 2px;
+  left: 1px;
+}
+.snows .snow:nth-child(3) {
+  top: 1px;
+  left: 60px;
+}
+.snows .snow:nth-child(4) {
+  top: 6px;
+  left: 56px;
+}
+.snows .snow:nth-child(5) {
+  top: 1px;
+  left: 81px;
+}
+.snows .snow:nth-child(6) {
+  top: 4px;
+  left: 49px;
+}
+.snows .snow:nth-child(7) {
+  top: 5px;
+  left: 27px;
+}
+.snows .snow:nth-child(8) {
+  top: 3px;
+  left: 14px;
+}
+.snows .snow:nth-child(9) {
+  top: 4px;
+  left: 115px;
+}
+.snows .snow:nth-child(10) {
+  top: 5px;
+  left: 9px;
 }

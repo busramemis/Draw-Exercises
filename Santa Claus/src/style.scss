@@ -122,7 +122,7 @@ body{
 		}
 	}
 }
-.body{
+.mustache{
 	display: flex;
 	justify-content: space-between;
 		
@@ -136,14 +136,22 @@ body{
 }
 
 .snows{	
+	position: absolute;
+	top: 0;
+	left: 10%;
 	.snow{
 		width: 4px;
 		height: 4px;
 		border-radius: 50%;
 		background-color: var(--light);
+		position: relative;
 		
-		position: absolute;
-	
+		@for $i from 1 through 10{
+			&:nth-child(#{$i}) { 
+				top: random(7) + px;
+				left: random(150) + px;
+				}
+		}
 		
 	}
 }
