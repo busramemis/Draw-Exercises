@@ -1,0 +1,134 @@
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.machine {
+  display: grid;
+  place-items: center;
+}
+.machine_container, .machine_footer {
+  background-color: #f05455;
+  border: 9px solid #481f57;
+}
+.machine_container {
+  width: 11rem;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom: none;
+  padding: 1.5rem 0.5rem 0;
+  position: relative;
+  display: grid;
+}
+.machine .rec {
+  width: 20px;
+  border-top: 3px solid #481f57;
+  border-left: 3px solid #481f57;
+  border-right: 3px solid #481f57;
+  background-color: #e3d9da;
+  padding: 0.5rem 1.5rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  place-self: center;
+}
+.machine .symbols_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.machine .symbols {
+  background-color: #e3d9da;
+  border: 4px solid #481f57;
+  border-radius: 5px;
+  display: inline;
+  padding: 0.5rem 0.33rem;
+}
+.machine .view {
+  padding-bottom: 1rem;
+}
+.machine .circle_container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.machine .circle {
+  background-color: #6ebbcf;
+  border: 3px solid #481f57;
+  padding: 5px;
+  border-radius: 50%;
+}
+.machine .circle_bottom {
+  background-color: #6ebbcf;
+  border: 4px solid #481f57;
+  padding: 0.3rem 0.4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+.machine_footer {
+  width: 15rem;
+  border-radius: 7px;
+  padding: 0.6rem;
+}
+.machine .place {
+  display: flex;
+  border: 3px solid #481f57;
+  border-radius: 5px;
+  width: 103%;
+  position: relative;
+}
+.machine .place::before, .machine .place::after {
+  content: " ";
+  position: absolute;
+  border: 3px solid #481f57;
+  border-radius: 3px;
+}
+.machine .place::before {
+  top: -3px;
+  left: -25px;
+  width: 10px;
+}
+.machine .place::after {
+  top: -3px;
+  right: -25px;
+  width: 10px;
+}
+.machine .slot-handle {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.machine .slot-handle .main-side {
+  background-color: #e3d9da;
+  border: 3px solid #481f57;
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+}
+.machine .slot-handle .handle-side {
+  position: relative;
+  top: -3rem;
+}
+.machine .slot-handle .handle-side_body {
+  background-color: #e3d9da;
+  border: 3px solid #481f57;
+  border-radius: 7px;
+  padding: 0.2rem 0.5rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 100%;
+}
+.machine .slot-handle .handle-side_btn {
+  background-color: #f05455;
+  border: 3px solid #481f57;
+  border-radius: 50%;
+  padding: 0.4rem;
+  display: inline-block;
+  position: relative;
+  top: -2.5rem;
+  right: -21px;
+}

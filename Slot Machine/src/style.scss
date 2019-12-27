@@ -1,0 +1,160 @@
+$background-color: #f05455;
+$border-color: #481f57;
+$bg-light: #e3d9da;
+$second-bg-color: #6ebbcf;
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.machine {
+	display: grid;
+	place-items: center;
+
+	&_container,
+	&_footer {
+		background-color: $background-color;
+		border: 9px solid $border-color;
+	}
+
+	&_container {
+		width: 11rem;
+		border-top-left-radius: 7px;
+		border-top-right-radius: 7px;
+		border-bottom: none;
+		padding: 1.5rem 0.5rem 0;
+		position: relative;
+		display: grid;
+	}
+
+	.rec {
+		width: 20px;
+		border-top: 3px solid $border-color;
+		border-left: 3px solid $border-color;
+		border-right: 3px solid $border-color;
+		background-color: $bg-light;
+		padding: 0.5rem 1.5rem;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		place-self: center;
+	}
+
+	.symbols_container {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 0.5rem;
+	}
+	.symbols {
+		background-color: $bg-light;
+		border: 4px solid $border-color;
+		border-radius: 5px;
+		display: inline;
+		padding: 0.5rem 0.33rem;
+	}
+
+	.view {
+		padding-bottom: 1rem;
+	}
+
+	.circle_container {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.circle {
+		background-color: $second-bg-color;
+		border: 3px solid $border-color;
+		padding: 5px;
+		border-radius: 50%;
+	}
+	.circle_bottom {
+		background-color: $second-bg-color;
+		border: 4px solid $border-color;
+		padding: 0.3rem 0.4rem;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+		border-radius: 4px;
+	}
+
+	&_footer {
+		width: 15rem;
+		border-radius: 7px;
+		padding: 0.6rem;
+	}
+
+	.place {
+		display: flex;
+		border: 3px solid $border-color;
+		border-radius: 5px;
+		width: 103%;
+		position: relative;
+
+		&::before,
+		&::after {
+			content: " ";
+			position: absolute;
+			border: 3px solid $border-color;
+			border-radius: 3px;
+		}
+
+		&::before {
+			top: -3px;
+			left: -25px;
+			width: 10px;
+		}
+
+		&::after {
+			top: -3px;
+			right: -25px;
+			width: 10px;
+		}
+	}
+
+	.slot-handle {
+		position: absolute;
+		right: 0;
+		z-index: -1;
+
+		.main-side {
+			background-color: $bg-light;
+			border: 3px solid $border-color;
+			padding: 0.4rem 1rem;
+			border-radius: 7px;
+		}
+
+		.handle-side {
+			position: relative;
+			top: -3rem;
+
+			&_body {
+				background-color: $bg-light;
+				border: 3px solid $border-color;
+				border-radius: 7px;
+				padding: 0.2rem 0.5rem;
+				transform: rotate(90deg);
+				width: 100%;
+			}
+
+			&_btn {
+				background-color: $background-color;
+				border: 3px solid $border-color;
+				border-radius: 50%;
+				padding: 0.4rem;
+				display: inline-block;
+
+				position: relative;
+				top: -2.5rem;
+				right: -21px;
+			}
+		}
+	}
+}
