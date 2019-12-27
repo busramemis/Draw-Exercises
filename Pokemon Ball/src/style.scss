@@ -1,0 +1,95 @@
+:root{
+	--dark-red: #de3c60;
+	--mid-red: #f15268;
+	--light-red: #ff6681;
+	--light-grey: #f5f5f5;
+	--dark-grey: #e9e9e9;
+	--light-black: #475766;
+	--mid-black: #1e2837;	
+}
+
+html{
+	font-size: 62.5;
+	box-sizing: border-box;
+}
+body{
+	background-color: #ffc24b;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.pokemon-ball{
+	width: 12rem;
+	position: relative;
+	transition: 1s scale; 
+	
+	&:hover{
+		scale: 2;
+		transition: 1s scale; 
+		
+		&::after{
+			background-color: rgba(0,0,0,.5);
+			transition: all 1s;
+		}
+	}
+	&::after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		transition: all 1s;
+	}
+
+	&_top{
+		width: 12rem;
+		height: 6rem;
+		background-color: var(--mid-red);
+		border-radius: 12rem 12rem 0 0;
+	}
+	&_bottom{
+		width: 12rem;
+		height: 6rem;
+		border-radius: 12rem 12rem 0 0;
+		background-color: var(--light-grey);
+		transform: rotate(180deg);
+		
+	}
+	&_line{
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		transform: translatey(-50%);
+		left: 0;
+		height: 15px;		
+		background-color: var(--mid-black);
+		z-index: 1;
+	}
+	&_open{
+		width: 1.5rem;
+		height: 1.5rem;
+		background-color: var(--light-grey);
+		border-radius: 50%;
+		border: 10px solid var(--mid-black);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+	}
+}
+
+.shadow{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 1.5rem 3px 1.5rem 3px;
+	background-color: rgba(255,255,255,0.15);
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	
+}
+
