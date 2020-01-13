@@ -1,0 +1,113 @@
+:root {
+  --background-color: #c8ffea;
+  --dark: #83104c;
+  --light: #f15268;
+  --pink: #ff6681;
+}
+
+html {
+  font-size: 62.5;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.game {
+  width: 19rem;
+}
+.game_header {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--dark);
+  border-radius: 15px 15px 0 0;
+}
+.game_main {
+  width: 100%;
+  height: 20rem;
+  background-color: var(--light);
+  border-radius: 0 0 15% 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.screen {
+  width: 15rem;
+  height: 9rem;
+  background-color: var(--dark);
+  border-radius: 10px 10px 20% 10px;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.screen .key {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: var(--pink);
+}
+.screen .visual {
+  width: 12rem;
+  height: 7rem;
+  background-color: #f5f5f5;
+}
+
+.keys {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.plus {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: var(--pink);
+  position: relative;
+}
+.plus::before, .plus::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: var(--dark);
+}
+.plus::before {
+  width: 75%;
+  height: 25%;
+}
+.plus::after {
+  width: 25%;
+  height: 75%;
+}
+
+.circle-container {
+  width: 5rem;
+  height: 2.5rem;
+  background-color: var(--pink);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+.circle-container .circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--dark);
+}
