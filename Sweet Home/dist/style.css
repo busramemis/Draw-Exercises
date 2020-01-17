@@ -33,6 +33,7 @@ body {
   flex-direction: column;
   align-items: end;
   padding-bottom: 20rem;
+  padding-right: 10rem;
 }
 .sky .sun {
   background-color: var(--sun);
@@ -74,6 +75,7 @@ body {
 .tree {
   display: flex;
   align-items: end;
+  margin-bottom: -.6rem;
 }
 .tree_back {
   width: 5rem;
@@ -81,6 +83,7 @@ body {
   background-color: var(--tree);
   border: 15px solid var(--shadow);
   border-radius: 50px 50px 10px 10px;
+  margin-right: -3rem;
 }
 .tree_front {
   width: 7rem;
@@ -93,12 +96,34 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: -2.3rem;
 }
 .tree_high .body {
   width: 13px;
   height: 9rem;
   background-color: var(--shadow);
   border-radius: 5px 5px;
+  position: relative;
+}
+.tree_high .body::before, .tree_high .body::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  height: 10px;
+  border-radius: 10px 10px;
+  background-color: var(--shadow);
+}
+.tree_high .body::before {
+  left: -12px;
+  width: 20px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.tree_high .body::after {
+  left: 6px;
+  width: 19px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .tree_high .greeny {
   width: 3rem;
@@ -114,4 +139,230 @@ body {
   background-color: var(--tree);
   border: 15px solid var(--shadow);
   border-radius: 50px 50px 10px 10px;
+  margin-left: -3.5rem;
+  z-index: -1;
+}
+
+.ground_items {
+  display: flex;
+  align-items: end;
+}
+
+.home {
+  position: relative;
+}
+.home_top {
+  width: 12rem;
+  height: 12rem;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: -6rem;
+  left: 3rem;
+  z-index: 2;
+}
+.home_bottom {
+  width: 16.2rem;
+  height: 10rem;
+  background-color: #fff;
+  border-left: 10px solid var(--shadow);
+  border-right: 10px solid var(--shadow);
+  z-index: 1;
+}
+.home .door {
+  position: absolute;
+  bottom: 0;
+  left: 2.5rem;
+  z-index: 5;
+  width: 3rem;
+  height: 5rem;
+  background-color: var(--blue);
+  border: 15px solid var(--shadow);
+  border-radius: 5px 5px 0 0;
+  border-bottom: 0;
+}
+.home .door .nock {
+  width: 10px;
+  height: 10px;
+  background-color: var(--shadow);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+}
+.home .window {
+  width: 2rem;
+  height: 2.7rem;
+  background-color: var(--blue);
+  border: 10px solid var(--shadow);
+  position: absolute;
+  bottom: 35px;
+  right: 3rem;
+  z-index: 5;
+  border-radius: 5px 5px 0 0;
+}
+.home .window::after {
+  content: '';
+  position: absolute;
+  left: -1.1rem;
+  width: 3rem;
+  height: .5rem;
+  top: 1.7rem;
+  background-color: var(--sun);
+  border: 10px solid var(--shadow);
+  border-radius: 5px;
+}
+.home .circle-window {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--blue);
+  border-radius: 50%;
+  border: 10px solid var(--shadow);
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+}
+.home .rock-container .rock {
+  width: 1.1rem;
+  height: 9px;
+  background-color: var(--rock);
+  border-radius: 5px 5px;
+  position: absolute;
+  z-index: 3;
+}
+.home .rock-container .rock-st {
+  top: 0;
+  left: 30%;
+}
+.home .rock-container .rock-nd {
+  top: 10%;
+  left: 15%;
+}
+.home .rock-container .rock-rd {
+  top: 0;
+  right: 25%;
+}
+.home .rock-container .rock-th {
+  top: 10%;
+  right: 10%;
+}
+.home .rock-container .rock-xth {
+  top: 10%;
+  right: 40%;
+}
+
+.roof {
+  position: absolute;
+  top: 15px;
+}
+.roof-left, .roof-right {
+  width: 14.5rem;
+  height: 1.5rem;
+  background-color: var(--roof);
+  z-index: 3;
+}
+.roof-left {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  left: -45px;
+  top: -80px;
+}
+.roof-right {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  left: 100px;
+  top: -80px;
+}
+.roof-tl {
+  width: 14.5rem;
+  height: 13px;
+  background-color: var(--shadow);
+  position: absolute;
+  top: -95px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: -50px;
+  z-index: 5;
+  border-radius: 0 15px 15px 0;
+}
+.roof-tr {
+  width: 14.5rem;
+  height: 13px;
+  background-color: var(--shadow);
+  position: absolute;
+  top: -95px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 105px;
+  z-index: 5;
+  border-radius: 15px 0px 0px 15px;
+}
+.roof-l {
+  position: absolute;
+  width: 13px;
+  height: 2.4rem;
+  background-color: var(--shadow);
+  left: -1.3rem;
+  top: -10px;
+  z-index: 9;
+}
+.roof-r {
+  position: absolute;
+  width: 13px;
+  height: 2.4rem;
+  background-color: var(--shadow);
+  left: 18.4rem;
+  top: -10px;
+  z-index: 9;
+}
+.roof-bl {
+  width: 14.3rem;
+  height: 13px;
+  background-color: var(--shadow);
+  position: absolute;
+  top: -63px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: -47px;
+  z-index: 5;
+  border-radius: 0 15px 15px 0;
+}
+.roof-br {
+  width: 14rem;
+  height: 13px;
+  background-color: var(--shadow);
+  position: absolute;
+  top: -62px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 108px;
+  z-index: 5;
+  border-radius: 15px 0 0 15px;
+}
+
+.flue {
+  width: 2rem;
+  height: 4rem;
+  border: 10px solid var(--shadow);
+  border-radius: 10px 10px;
+  background-color: var(--roof);
+  position: absolute;
+  top: -7rem;
+  left: 2rem;
+}
+.flue::after {
+  content: "";
+  width: 15px;
+  height: 7px;
+  background-color: var(--shadow);
+  border-radius: 3px 3px;
+  position: absolute;
+  top: 10px;
+  left: -3px;
 }

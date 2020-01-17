@@ -31,6 +31,7 @@ body{
 	flex-direction: column;
 	align-items: end;
 	padding-bottom: 20rem;
+	padding-right: 10rem;
 	
 	.sun{
 		background-color: var(--sun);
@@ -62,7 +63,6 @@ body{
 		}
 	}
 }
-
 .ground{
 	width: 50rem;
 	height: 10px;
@@ -73,7 +73,7 @@ body{
 .tree{
 	display: flex;
 	align-items: end;
-	
+	margin-bottom: -.6rem;	
 	
 	&_back{
 		width: 5rem;
@@ -81,6 +81,7 @@ body{
 		background-color: var(--tree);
 		border: 15px solid var(--shadow);
 		border-radius: 50px 50px 10px 10px;
+		margin-right: -3rem;
 	}
 	&_front{
 		width: 7rem;
@@ -93,12 +94,33 @@ body{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-left: -2.3rem;
 		
 		.body{
 			width: 13px;
 			height: 9rem;
 			background-color: var(--shadow);
 			border-radius: 5px 5px;
+			position: relative;
+			
+			&::before, &::after{
+				content: '';
+				position: absolute;
+				top: 20px;
+				height: 10px;
+				border-radius: 10px 10px;
+				background-color: var(--shadow);
+			}
+			&::before{
+				left: -12px;
+				width: 20px;
+				transform: rotate(45deg);
+			}
+			&::after{
+				left: 6px;
+				width: 19px;
+				transform: rotate(-45deg);
+			}
 		}
 		.greeny{
 			width: 3rem;
@@ -110,12 +132,249 @@ body{
 		}
 				
 	}
-	
 	&_tiny{
 		width: 3rem;
 		height: 1.5rem;
 		background-color: var(--tree);
 		border: 15px solid var(--shadow);
 		border-radius: 50px 50px 10px 10px;
+		margin-left: -3.5rem;
+		z-index: -1;
+	}
+}
+.ground_items{
+	display: flex;
+	align-items: end;
+}
+.home{
+	position: relative;
+	&_top{
+		width: 12rem;
+		height: 12rem;
+		background-color: #fff;
+		transform: rotate(45deg);
+		position: absolute;
+		top: -6rem;
+		left: 3rem;
+		z-index: 2;
+	}
+	&_bottom{
+		width: 16.2rem;
+		height: 10rem;
+		background-color: #fff;
+		border-left: 10px solid var(--shadow);
+		border-right: 10px solid var(--shadow);
+		z-index: 1;
+	}
+	
+	.door{
+		position: absolute;
+		bottom: 0;
+		left: 2.5rem;
+		z-index: 5;
+		width: 3rem;
+		height: 5rem;
+		background-color: var(--blue);
+		border: 15px solid var(--shadow);
+		border-radius: 5px 5px 0 0;
+		border-bottom: 0;
+		
+		.nock{
+			width: 10px;
+			height: 10px;
+			background-color: var(--shadow);
+			border-radius: 50%;
+			position: absolute;
+			bottom: 30%;
+			right: 10%;
+		}
+		
+		
+	}
+	.window{
+		width: 2rem;
+		height: 2.7rem;
+		background-color: var(--blue);
+		border: 10px solid var(--shadow);
+		position: absolute;
+		bottom: 35px;
+		right: 3rem;
+		z-index: 5;
+		border-radius: 5px 5px 0 0;
+		
+		&::after{
+			content: '';
+			position: absolute;
+			left: -1.1rem;
+			width: 3rem;
+			height: .5rem;
+			top: 1.7rem;
+			background-color: var(--sun);
+			border: 10px solid var(--shadow);
+			border-radius: 5px;
+		}
+	}
+	.circle-window{
+		width: 2rem;
+		height: 2rem;
+		background-color: var(--blue);
+		border-radius: 50%;
+		border: 10px solid var(--shadow);
+		position: absolute;
+		top: -30%;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 2;
+		
+	}
+	
+	.rock-container{
+		
+		.rock{
+			width: 1.1rem;
+			height: 9px;
+			background-color: var(--rock);
+			border-radius: 5px 5px;
+			position: absolute;
+			z-index: 3;
+			
+			&-st{
+				top: 0;
+				left: 30%;
+			}
+			&-nd{
+				top: 10%;
+				left: 15%;
+			}
+			&-rd{
+				top: 0;
+				right: 25%;
+			}
+			&-th{
+				top: 10%;
+				right: 10%;
+			}
+			&-xth{
+				top: 10%;
+				right: 40%;
+			}
+		}
+		
+	}
+}
+
+.roof{
+	position: absolute;
+	top: 15px;
+	
+	&-left, &-right{
+		width: 14.5rem;
+		height: 1.5rem;
+		background-color: var(--roof);
+		z-index: 3;
+	}
+	
+	&-left{
+		transform: rotate(-45deg);
+		position: absolute;
+		left: -45px;
+		top: -80px;
+	}
+	&-right{
+		transform: rotate(45deg);
+		position: absolute;
+		left: 100px;
+		top: -80px;
+	}
+	
+	&-tl{
+		width: 14.5rem;
+		height: 13px;
+		background-color: var(--shadow);
+		position: absolute;
+		top: -95px;
+		transform: rotate(-45deg);
+		left: -50px;
+		z-index: 5;
+		border-radius: 0 15px 15px 0;
+	}
+	
+	&-tr{
+		width: 14.5rem;
+		height: 13px;
+		background-color: var(--shadow);
+		position: absolute;
+		top: -95px;
+		transform: rotate(45deg);
+		left: 105px;
+		z-index: 5;
+		border-radius: 15px 0px 0px 15px;
+	}
+	
+	&-l{
+		position: absolute;
+		width: 13px;
+		height: 2.4rem;
+		background-color: var(--shadow);
+		left: -1.3rem;
+		top: -10px;
+		z-index: 9;
+	}
+	
+	&-r{
+		position: absolute;
+		width: 13px;
+		height: 2.4rem;
+		background-color: var(--shadow);
+		left: 18.4rem;
+		top: -10px;
+		z-index: 9;
+	}
+	
+	&-bl{
+		width: 14.3rem;
+		height: 13px;
+		background-color: var(--shadow);
+		position: absolute;
+		top: -63px;
+		transform: rotate(-45deg);
+		left: -47px;
+		z-index: 5;
+		border-radius: 0 15px 15px 0;
+	}
+	&-br{
+		width: 14rem;
+		height: 13px;
+		background-color: var(--shadow);
+		position: absolute;
+		top: -62px;
+		transform: rotate(45deg);
+		left: 108px;
+		z-index: 5;
+		border-radius: 15px 0 0 15px;
+	}
+	
+	
+}
+
+.flue{
+	width: 2rem;
+	height: 4rem;
+	border: 10px solid var(--shadow);
+	border-radius: 10px 10px;
+	background-color: var(--roof);
+	position: absolute;
+	top: -7rem;
+	left: 2rem;
+	
+	&::after{
+		content: "";
+		width: 15px;
+		height: 7px;
+		background-color: var(--shadow);
+		border-radius: 3px 3px;
+		position: absolute;
+		top: 10px;
+		left: -3px;
 	}
 }
