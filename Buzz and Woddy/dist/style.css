@@ -1,0 +1,27 @@
+:root {
+  --background-color: #b3e5fc;
+  --buzz: purple;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  position: relative;
+}
