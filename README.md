@@ -2,12 +2,11 @@
 
 You can see all this project on [codepen](https://codepen.io/collection/njaZGk) collection. 
 
-1. [Forky](https://codepen.io/busramemis/full/eYmWLvR)
-2. [Emoji](https://codepen.io/busramemis/full/yLybROK)
-3. [Snowman](https://codepen.io/busramemis/full/povwgOe)
-4. [Santa Claus](https://codepen.io/busramemis/full/oNgwabV)
-5. [Slot Machine](https://codepen.io/busramemis/full/OJPpvZG)
-6. [Pokemon Ball](https://codepen.io/busramemis/full/QWwgzJN)
-7. [Groot](https://codepen.io/busramemis/full/NWPYwgW)
-8. [Gameboy](https://codepen.io/busramemis/full/zYxaoYM)
-9. [Sweet Home](https://codepen.io/busramemis/full/mdyGprK)
+1. [Emoji](https://codepen.io/busramemis/full/yLybROK)
+2. [Snowman](https://codepen.io/busramemis/full/povwgOe)
+3. [Santa Claus](https://codepen.io/busramemis/full/oNgwabV)
+4. [Slot Machine](https://codepen.io/busramemis/full/OJPpvZG)
+5. [Pokemon Ball](https://codepen.io/busramemis/full/QWwgzJN)
+6. [Groot](https://codepen.io/busramemis/full/NWPYwgW)
+7. [Gameboy](https://codepen.io/busramemis/full/zYxaoYM)
+8. [Sweet Home](https://codepen.io/busramemis/full/mdyGprK)
