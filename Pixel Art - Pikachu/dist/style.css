@@ -1,0 +1,33 @@
+:root {
+  --black: #000;
+  --yellow: #f9d904;
+  --eyelid: #d5d5d5;
+  --cheek: #ea1c36;
+  --tongue:#ef839a;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #var --eyelid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.pikachu-container {
+  display: grid;
+  grid-template-columns: repeat(43, 1fr);
+  grid-template-rows: repeat(40, 1fr);
+}
+
+.pikachu {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--black);
+}
