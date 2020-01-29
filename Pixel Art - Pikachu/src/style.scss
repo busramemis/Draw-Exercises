@@ -1,6 +1,7 @@
 :root{
 	--black: #000;
 	--yellow: #f9d904;
+	--yellow-shadow: #e1b424;
 	--eyelid: #d5d5d5;
 	--cheek: #ea1c36;
 	--tongue:#ef839a;	
@@ -18,6 +19,13 @@ body{
 	transform: translate(-50%, -50%);
 }
 
+
+@mixin position($col, $row, $bg-color){
+	grid-column: $col;
+	grid-row: $row;
+	background-color: $bg-color;
+}
+
 .pikachu-container{
 	display: grid;
 	grid-template-columns: repeat(43, 1fr);
@@ -27,7 +35,3469 @@ body{
 .pikachu{
 	width: 1.5rem;
 	height: 1.5rem;
-	border: 1px solid var(--black);
+	border: 1px solid #747474;
+	
+	&:nth-child(1){
+		@include position(2,2, var(--black));
+	}
+	&:nth-child(2){
+		@include position(3, 2, var(--black));
+	}
+	&:nth-child(3){
+		@include position(4, 2, var(--black));
+	}
+	&:nth-child(4){
+		@include position(5, 2, var(--black));
+	}
+	
+	&:nth-child(5){
+		@include position(2, 3, var(--black));
+	} 
+	&:nth-child(6){
+		@include position(3, 3, var(--black));
+	}
+	&:nth-child(7){
+		@include position(4, 3, var(--black));
+	}
+	&:nth-child(8){
+		@include position(5, 3, var(--black));
+	}
+	&:nth-child(9){
+		@include position(6, 3, var(--black));
+	}
+	&:nth-child(10){
+		@include position(7, 3, var(--black));
+	}
+	&:nth-child(11){
+		@include position(8, 3, var(--black));
+	}
+	
+	&:nth-child(12){
+		@include position(2, 4, var(--black));
+	} 
+	&:nth-child(13){
+		@include position(3, 4, var(--black));
+	}
+	&:nth-child(14){
+		@include position(4, 4, var(--black));
+	}
+	&:nth-child(15){
+		@include position(5, 4, var(--black));
+	}
+	&:nth-child(16){
+		@include position(6, 4, var(--black));
+	}
+	&:nth-child(17){
+		@include position(7, 4, var(--black));
+	}
+	&:nth-child(18){
+		@include position(8, 4, var(--black));
+	}
+	&:nth-child(19){
+		@include position(9, 4, var(--black));
+	}
+	&:nth-child(20){
+		@include position(10, 4, var(--black));
+	}
+	
+	////
+	
+	&:nth-child(21){
+		@include position(42, 2, var(--black));
+	}
+	&:nth-child(22){
+		@include position(41, 2, var(--black));
+	}
+	&:nth-child(23){
+		@include position(40, 2, var(--black));
+	}
+	&:nth-child(24){
+		@include position(39, 2, var(--black));
+	}
+	
+	&:nth-child(25){
+		@include position(42, 3, var(--black));
+	} 
+	&:nth-child(26){
+		@include position(41, 3, var(--black));
+	}
+	&:nth-child(27){
+		@include position(40, 3, var(--black));
+	}
+	&:nth-child(28){
+		@include position(39, 3, var(--black));
+	}
+	&:nth-child(29){
+		@include position(38, 3, var(--black));
+	}
+	&:nth-child(30){
+		@include position(37, 3, var(--black));
+	}
+	&:nth-child(31){
+		@include position(36, 3, var(--black));
+	}
+	
+	&:nth-child(32){
+		@include position(42, 4, var(--black));
+	} 
+	&:nth-child(33){
+		@include position(41, 4, var(--black));
+	}
+	&:nth-child(34){
+		@include position(40, 4, var(--black));
+	}
+	&:nth-child(35){
+		@include position(39, 4, var(--black));
+	}
+	&:nth-child(36){
+		@include position(38, 4, var(--black));
+	}
+	&:nth-child(37){
+		@include position(37, 4, var(--black));
+	}
+	&:nth-child(38){
+		@include position(36, 4, var(--black));
+	}
+	&:nth-child(39){
+		@include position(35, 4, var(--black));
+	}
+	&:nth-child(40){
+		@include position(34, 4, var(--black));
+	}
+	
+	
+	///
+	
+	&:nth-child(41){
+		@include position(2, 5, var(--black));
+	} 
+	&:nth-child(42){
+		@include position(3, 5, var(--black));
+	}
+	&:nth-child(43){
+		@include position(4, 5, var(--black));
+	}
+	&:nth-child(44){
+		@include position(5, 5, var(--black));
+	}
+	&:nth-child(45){
+		@include position(6, 5, var(--black));
+	}
+	&:nth-child(46){
+		@include position(7, 5, var(--black));
+	}
+	&:nth-child(47){
+		@include position(8, 5, var(--yellow));
+	}
+	&:nth-child(48){
+		@include position(9, 5, var(--yellow));
+	}
+	&:nth-child(49){
+		@include position(10, 5, var(--yellow));
+	}
+	&:nth-child(50){
+		@include position(11, 5, var(--black));
+	}
+	
+	&:nth-child(51){
+		@include position(2, 6, var(--black));
+	} 
+	&:nth-child(52){
+		@include position(3, 6, var(--black));
+	}
+	&:nth-child(53){
+		@include position(4, 6, var(--black));
+	}
+	&:nth-child(54){
+		@include position(5, 6, var(--black));
+	}
+	&:nth-child(55){
+		@include position(6, 6, var(--black));
+	}
+	&:nth-child(56){
+		@include position(7, 6, var(--black));
+	}
+	&:nth-child(57){
+		@include position(8, 6, var(--yellow));
+	}
+	&:nth-child(58){
+		@include position(9, 6, var(--yellow));
+	}
+	&:nth-child(59){
+		@include position(10, 6, var(--yellow));
+	}
+	&:nth-child(60){
+		@include position(11, 6, var(--yellow));
+	}
+	&:nth-child(61){
+		@include position(12, 6, var(--black));
+	}
+	
+	&:nth-child(62){
+		@include position(2, 7, var(--black));
+	} 
+	&:nth-child(63){
+		@include position(3, 7, var(--black));
+	}
+	&:nth-child(64){
+		@include position(4, 7, var(--black));
+	}
+	&:nth-child(65){
+		@include position(5, 7, var(--black));
+	}
+	&:nth-child(66){
+		@include position(6, 7, var(--black));
+	}
+	&:nth-child(67){
+		@include position(7, 7, var(--yellow));
+	}
+	&:nth-child(68){
+		@include position(8, 7, var(--yellow));
+	}
+	&:nth-child(69){
+		@include position(9, 7, var(--yellow));
+	}
+	&:nth-child(70){
+		@include position(10, 7, var(--yellow));
+	}
+	&:nth-child(71){
+		@include position(11, 7, var(--yellow));
+	}
+	&:nth-child(72){
+		@include position(12, 7, var(--yellow));
+	}
+	&:nth-child(73){
+		@include position(13, 7, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(74){
+		@include position(42, 5, var(--black));
+	} 
+	&:nth-child(75){
+		@include position(41, 5, var(--black));
+	}
+	&:nth-child(76){
+		@include position(40, 5, var(--black));
+	}
+	&:nth-child(77){
+		@include position(39, 5, var(--black));
+	}
+	&:nth-child(78){
+		@include position(38, 5, var(--black));
+	}
+	&:nth-child(79){
+		@include position(37, 5, var(--black));
+	}
+	&:nth-child(80){
+		@include position(36, 5, var(--yellow));
+	}
+	&:nth-child(81){
+		@include position(35, 5, var(--yellow));
+	}
+	&:nth-child(82){
+		@include position(34, 5, var(--yellow));
+	}
+	&:nth-child(83){
+		@include position(33, 5, var(--black));
+	}
+	
+	&:nth-child(84){
+		@include position(42, 6, var(--black));
+	} 
+	&:nth-child(85){
+		@include position(41, 6, var(--black));
+	}
+	&:nth-child(86){
+		@include position(40, 6, var(--black));
+	}
+	&:nth-child(87){
+		@include position(39, 6, var(--black));
+	}
+	&:nth-child(88){
+		@include position(38, 6, var(--black));
+	}
+	&:nth-child(89){
+		@include position(37, 6, var(--black));
+	}
+	&:nth-child(90){
+		@include position(36, 6, var(--yellow));
+	}
+	&:nth-child(91){
+		@include position(35, 6, var(--yellow));
+	}
+	&:nth-child(92){
+		@include position(34, 6, var(--yellow));
+	}
+	&:nth-child(93){
+		@include position(33, 6, var(--yellow));
+	}
+	&:nth-child(94){
+		@include position(32, 6, var(--black));
+	}
+	
+	&:nth-child(95){
+		@include position(42, 7, var(--black));
+	} 
+	&:nth-child(96){
+		@include position(41, 7, var(--black));
+	}
+	&:nth-child(97){
+		@include position(40, 7, var(--black));
+	}
+	&:nth-child(98){
+		@include position(39, 7, var(--black));
+	}
+	&:nth-child(99){
+		@include position(38, 7, var(--black));
+	}
+	&:nth-child(100){
+		@include position(37, 7, var(--yellow));
+	}
+	&:nth-child(101){
+		@include position(36, 7, var(--yellow));
+	}
+	&:nth-child(102){
+		@include position(35, 7, var(--yellow));
+	}
+	&:nth-child(103){
+		@include position(34, 7, var(--yellow));
+	}
+	&:nth-child(104){
+		@include position(33, 7, var(--yellow));
+	}
+	&:nth-child(105){
+		@include position(32, 7, var(--yellow));
+	}
+	&:nth-child(106){
+		@include position(31, 7, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(108){
+		@include position(3, 8, var(--black));
+	}
+	&:nth-child(109){
+		@include position(4, 8, var(--black));
+	}
+	&:nth-child(110){
+		@include position(5, 8, var(--black));
+	}
+	&:nth-child(111){
+		@include position(6, 8, var(--black));
+	}
+	&:nth-child(112){
+		@include position(7, 8, var(--yellow));
+	}
+	&:nth-child(113){
+		@include position(8, 8, var(--yellow));
+	}
+	&:nth-child(114){
+		@include position(9, 8, var(--yellow));
+	}
+	&:nth-child(115){
+		@include position(10, 8, var(--yellow));
+	}
+	&:nth-child(116){
+		@include position(11, 8, var(--yellow));
+	}
+	&:nth-child(117){
+		@include position(12, 8, var(--yellow));
+	}
+	&:nth-child(118){
+		@include position(13, 8, var(--yellow));
+	}
+	&:nth-child(119){
+		@include position(14, 8, var(--black));
+	}
+	&:nth-child(120){
+		@include position(17, 8, var(--black));
+	}
+	&:nth-child(121){
+		@include position(18, 8, var(--black));
+	}
+	&:nth-child(122){
+		@include position(19, 8, var(--black));
+	}
+	&:nth-child(123){
+		@include position(20, 8, var(--black));
+	}
+	&:nth-child(124){
+		@include position(21, 8, var(--black));
+	}
+	&:nth-child(125){
+		@include position(22, 8, var(--black));
+	}
+	&:nth-child(126){
+		@include position(23, 8, var(--black));
+	}
+	&:nth-child(127){
+		@include position(24, 8, var(--black));
+	}
+	&:nth-child(128){
+		@include position(25, 8, var(--black));
+	}
+	&:nth-child(129){
+		@include position(26, 8, var(--black));
+	}
+	&:nth-child(130){
+		@include position(27, 8, var(--black));
+	}
+	&:nth-child(131){
+		@include position(30, 8, var(--black));
+	}
+	&:nth-child(132){
+		@include position(31, 8, var(--yellow));
+	}
+	&:nth-child(133){
+		@include position(32, 8, var(--yellow));
+	}
+	&:nth-child(134){
+		@include position(33, 8, var(--yellow));
+	}
+	&:nth-child(135){
+		@include position(34, 8, var(--yellow));
+	}
+	&:nth-child(136){
+		@include position(35, 8, var(--yellow));
+	}
+	&:nth-child(137){
+		@include position(36, 8, var(--yellow));
+	}
+	&:nth-child(138){
+		@include position(37, 8, var(--yellow));
+	}
+	&:nth-child(139){
+		@include position(38, 8, var(--black));
+	}
+	&:nth-child(140){
+		@include position(39, 8, var(--black));
+	}
+	&:nth-child(141){
+		@include position(40, 8, var(--black));
+	}
+	&:nth-child(142){
+		@include position(41, 8, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(143){
+		@include position(3, 9, var(--black));
+	}
+	&:nth-child(144){
+		@include position(4, 9, var(--black));
+	}
+	&:nth-child(145){
+		@include position(5, 9, var(--black));
+	}
+	&:nth-child(146){
+		@include position(6, 9, var(--black));
+	}
+	&:nth-child(147){
+		@include position(7, 9, var(--yellow));
+	}
+	&:nth-child(148){
+		@include position(8, 9, var(--yellow));
+	}
+	&:nth-child(149){
+		@include position(9, 9, var(--yellow));
+	}
+	&:nth-child(150){
+		@include position(10, 9, var(--yellow));
+	}
+	&:nth-child(151){
+		@include position(11, 9, var(--yellow));
+	}
+	&:nth-child(152){
+		@include position(12, 9, var(--yellow));
+	}
+	&:nth-child(153){
+		@include position(13, 9, var(--yellow));
+	}
+	&:nth-child(157){
+		@include position(14, 9, var(--yellow));
+	}
+	&:nth-child(158){
+		@include position(15, 9, var(--black));
+	}
+	&:nth-child(159){
+		@include position(16, 9, var(--black));
+	}
+	&:nth-child(160){
+		@include position(17, 9, var(--yellow));
+	}
+	&:nth-child(161){
+		@include position(18, 9, var(--yellow));
+	}
+	&:nth-child(162){
+		@include position(19, 9, var(--yellow));
+	}
+	&:nth-child(163){
+		@include position(20, 9, var(--yellow));
+	}
+	&:nth-child(164){
+		@include position(20, 9, var(--yellow));
+	}
+	&:nth-child(165){
+		@include position(21, 9, var(--yellow));
+	}
+	&:nth-child(166){
+		@include position(22, 9, var(--yellow));
+	}
+	&:nth-child(167){
+		@include position(23, 9, var(--yellow));
+	}
+	&:nth-child(168){
+		@include position(24, 9, var(--yellow));
+	}
+	&:nth-child(169){
+		@include position(25, 9, var(--yellow));
+	}
+	&:nth-child(170){
+		@include position(26, 9, var(--yellow));
+	}
+	&:nth-child(171){
+		@include position(27, 9, var(--yellow));
+	}
+	&:nth-child(172){
+		@include position(28, 9, var(--black));
+	}
+	&:nth-child(173){
+		@include position(29, 9, var(--black));
+	}
+	&:nth-child(174){
+		@include position(30, 9, var(--yellow));
+	}
+	&:nth-child(175){
+		@include position(31, 9, var(--yellow));
+	}
+	&:nth-child(176){
+		@include position(32, 9, var(--yellow));
+	}
+	&:nth-child(177){
+		@include position(33, 9, var(--yellow));
+	}
+	&:nth-child(178){
+		@include position(34, 9, var(--yellow));
+	}
+	&:nth-child(179){
+		@include position(35, 9, var(--yellow));
+	}
+	&:nth-child(180){
+		@include position(36, 9, var(--yellow));
+	}
+	&:nth-child(181){
+		@include position(37, 9, var(--yellow));
+	}
+	&:nth-child(182){
+		@include position(38, 9, var(--black));
+	}
+	&:nth-child(183){
+		@include position(39, 9, var(--black));
+	}
+	&:nth-child(184){
+		@include position(40, 9, var(--black));
+	}
+	&:nth-child(185){
+		@include position(41, 9, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(186){
+		@include position(4, 10, var(--black));
+	}
+	&:nth-child(187){
+		@include position(5, 10, var(--black));
+	}
+	&:nth-child(188){
+		@include position(6, 10, var(--black));
+	}
+	&:nth-child(189){
+		@include position(7, 10, var(--yellow));
+	}
+	&:nth-child(190){
+		@include position(8, 10, var(--yellow));
+	}
+	&:nth-child(191){
+		@include position(9, 10, var(--yellow));
+	}
+	&:nth-child(192){
+		@include position(10, 10, var(--yellow));
+	}
+	&:nth-child(193){
+		@include position(11, 10, var(--yellow));
+	}
+	&:nth-child(194){
+		@include position(12, 10, var(--yellow));
+	}
+	&:nth-child(195){
+		@include position(13, 10, var(--black));
+	}
+	&:nth-child(196){
+		@include position(14, 10, var(--black));
+	}
+	&:nth-child(197){
+		@include position(15, 10, var(--yellow));
+	}
+	&:nth-child(198){
+		@include position(16, 10, var(--yellow));
+	}
+	&:nth-child(199){
+		@include position(17, 10, var(--yellow));
+	}
+	&:nth-child(200){
+		@include position(18, 10, var(--yellow));
+	}
+	&:nth-child(201){
+		@include position(19, 10, var(--yellow));
+	}
+	&:nth-child(202){
+		@include position(20, 10, var(--yellow));
+	}
+	&:nth-child(203){
+		@include position(20, 10, var(--yellow));
+	}
+	&:nth-child(204){
+		@include position(21, 10, var(--yellow));
+	}
+	&:nth-child(205){
+		@include position(22, 10, var(--yellow));
+	}
+	&:nth-child(206){
+		@include position(23, 10, var(--yellow));
+	}
+	&:nth-child(207){
+		@include position(24, 10, var(--yellow));
+	}
+	&:nth-child(208){
+		@include position(25, 10, var(--yellow));
+	}
+	&:nth-child(209){
+		@include position(26, 10, var(--yellow));
+	}
+	&:nth-child(210){
+		@include position(27, 10, var(--yellow));
+	}
+	&:nth-child(211){
+		@include position(28, 10, var(--yellow));
+	}
+	&:nth-child(212){
+		@include position(29, 10, var(--yellow));
+	}
+	&:nth-child(213){
+		@include position(30, 10, var(--black));
+	}
+	&:nth-child(214){
+		@include position(31, 10, var(--black));
+	}
+	&:nth-child(215){
+		@include position(32, 10, var(--yellow));
+	}
+	&:nth-child(216){
+		@include position(33, 10, var(--yellow));
+	}
+	&:nth-child(217){
+		@include position(34, 10, var(--yellow));
+	}
+	&:nth-child(218){
+		@include position(35, 10, var(--yellow));
+	}
+	&:nth-child(219){
+		@include position(36, 10, var(--yellow));
+	}
+	&:nth-child(220){
+		@include position(37, 10, var(--yellow));
+	}
+	&:nth-child(221){
+		@include position(38, 10, var(--black));
+	}
+	&:nth-child(222){
+		@include position(39, 10, var(--black));
+	}
+	&:nth-child(223){
+		@include position(40, 10, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(224){
+		@include position(4, 11, var(--black));
+	}
+	&:nth-child(225){
+		@include position(5, 11, var(--black));
+	}
+	&:nth-child(226){
+		@include position(6, 11, var(--black));
+	}
+	&:nth-child(227){
+		@include position(7, 11, var(--yellow-shadow));
+	}
+	&:nth-child(228){
+		@include position(8, 11, var(--yellow));
+	}
+	&:nth-child(229){
+		@include position(9, 11, var(--yellow));
+	}
+	&:nth-child(230){
+		@include position(10, 11, var(--yellow));
+	}
+	&:nth-child(231){
+		@include position(11, 11, var(--yellow));
+	}
+	&:nth-child(232){
+		@include position(12, 11, var(--yellow));
+	}
+	&:nth-child(233){
+		@include position(13, 11, var(--yellow));
+	}
+	&:nth-child(234){
+		@include position(14, 11, var(--yellow));
+	}
+	&:nth-child(235){
+		@include position(15, 11, var(--yellow));
+	}
+	&:nth-child(236){
+		@include position(16, 11, var(--yellow));
+	}
+	&:nth-child(237){
+		@include position(17, 11, var(--yellow));
+	}
+	&:nth-child(238){
+		@include position(18, 11, var(--yellow));
+	}
+	&:nth-child(239){
+		@include position(19, 11, var(--yellow));
+	}
+	&:nth-child(240){
+		@include position(20, 11, var(--yellow));
+	}
+	&:nth-child(241){
+		@include position(20, 11, var(--yellow));
+	}
+	&:nth-child(242){
+		@include position(21, 11, var(--yellow));
+	}
+	&:nth-child(243){
+		@include position(22, 11, var(--yellow));
+	}
+	&:nth-child(244){
+		@include position(23, 11, var(--yellow));
+	}
+	&:nth-child(245){
+		@include position(24, 11, var(--yellow));
+	}
+	&:nth-child(246){
+		@include position(25, 11, var(--yellow));
+	}
+	&:nth-child(247){
+		@include position(26, 11, var(--yellow));
+	}
+	&:nth-child(248){
+		@include position(27, 11, var(--yellow));
+	}
+	&:nth-child(249){
+		@include position(28, 11, var(--yellow));
+	}
+	&:nth-child(250){
+		@include position(29, 11, var(--yellow));
+	}
+	&:nth-child(251){
+		@include position(30, 11, var(--yellow));
+	}
+	&:nth-child(252){
+		@include position(31, 11, var(--yellow));
+	}
+	&:nth-child(253){
+		@include position(32, 11, var(--yellow));
+	}
+	&:nth-child(254){
+		@include position(33, 11, var(--yellow));
+	}
+	&:nth-child(255){
+		@include position(34, 11, var(--yellow));
+	}
+	&:nth-child(256){
+		@include position(35, 11, var(--yellow));
+	}
+	&:nth-child(257){
+		@include position(36, 11, var(--yellow));
+	}
+	&:nth-child(258){
+		@include position(37, 11, var(--yellow-shadow));
+	}
+	&:nth-child(259){
+		@include position(38, 11, var(--black));
+	}
+	&:nth-child(260){
+		@include position(39, 11, var(--black));
+	}
+	&:nth-child(261){
+		@include position(40, 11, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(262){
+		@include position(5, 12, var(--black));
+	}
+	&:nth-child(263){
+		@include position(6, 12, var(--black));
+	}
+	&:nth-child(264){
+		@include position(7, 12, var(--yellow-shadow));
+	}
+	&:nth-child(265){
+		@include position(8, 12, var(--yellow-shadow));
+	}
+	&:nth-child(266){
+		@include position(9, 12, var(--yellow));
+	}
+	&:nth-child(267){
+		@include position(10, 12, var(--yellow));
+	}
+	&:nth-child(268){
+		@include position(11, 12, var(--yellow));
+	}
+	&:nth-child(269){
+		@include position(12, 12, var(--yellow));
+	}
+	&:nth-child(270){
+		@include position(13, 12, var(--yellow));
+	}
+	&:nth-child(271){
+		@include position(14, 12, var(--yellow));
+	}
+	&:nth-child(272){
+		@include position(15, 12, var(--yellow));
+	}
+	&:nth-child(273){
+		@include position(16, 12, var(--yellow));
+	}
+	&:nth-child(274){
+		@include position(17, 12, var(--yellow));
+	}
+	&:nth-child(275){
+		@include position(18, 12, var(--yellow));
+	}
+	&:nth-child(276){
+		@include position(19, 12, var(--yellow));
+	}
+	&:nth-child(277){
+		@include position(20, 12, var(--yellow));
+	}
+	&:nth-child(278){
+		@include position(20, 12, var(--yellow));
+	}
+	&:nth-child(279){
+		@include position(21, 12, var(--yellow));
+	}
+	&:nth-child(280){
+		@include position(22, 12, var(--yellow));
+	}
+	&:nth-child(281){
+		@include position(23, 12, var(--yellow));
+	}
+	&:nth-child(282){
+		@include position(24, 12, var(--yellow));
+	}
+	&:nth-child(283){
+		@include position(25, 12, var(--yellow));
+	}
+	&:nth-child(284){
+		@include position(26, 12, var(--yellow));
+	}
+	&:nth-child(285){
+		@include position(27, 12, var(--yellow));
+	}
+	&:nth-child(286){
+		@include position(28, 12, var(--yellow));
+	}
+	&:nth-child(287){
+		@include position(29, 12, var(--yellow));
+	}
+	&:nth-child(288){
+		@include position(30, 12, var(--yellow));
+	}
+	&:nth-child(289){
+		@include position(31, 12, var(--yellow));
+	}
+	&:nth-child(290){
+		@include position(32, 12, var(--yellow));
+	}
+	&:nth-child(291){
+		@include position(33, 12, var(--yellow));
+	}
+	&:nth-child(292){
+		@include position(34, 12, var(--yellow));
+	}
+	&:nth-child(293){
+		@include position(35, 12, var(--yellow));
+	}
+	&:nth-child(294){
+		@include position(36, 12, var(--yellow-shadow));
+	}
+	&:nth-child(295){
+		@include position(37, 12, var(--yellow-shadow));
+	}
+	&:nth-child(296){
+		@include position(38, 12, var(--black));
+	}
+	&:nth-child(297){
+		@include position(39, 12, var(--black));
+	}
+	
+	///
+	
+	
+	&:nth-child(298){
+		@include position(6, 13, var(--black));
+	}
+	&:nth-child(299){
+		@include position(7, 13, var(--yellow-shadow));
+	}
+	&:nth-child(300){
+		@include position(8, 13, var(--yellow-shadow));
+	}
+	&:nth-child(301){
+		@include position(9, 13, var(--yellow-shadow));
+	}
+	&:nth-child(302){
+		@include position(10, 13, var(--black));
+	}
+	&:nth-child(303){
+		@include position(11, 13, var(--yellow));
+	}
+	&:nth-child(304){
+		@include position(12, 13, var(--yellow));
+	}
+	&:nth-child(305){
+		@include position(13, 13, var(--yellow));
+	}
+	&:nth-child(306){
+		@include position(14, 13, var(--yellow));
+	}
+	&:nth-child(307){
+		@include position(15, 13, var(--yellow));
+	}
+	&:nth-child(308){
+		@include position(16, 13, var(--yellow));
+	}
+	&:nth-child(309){
+		@include position(17, 13, var(--yellow));
+	}
+	&:nth-child(310){
+		@include position(18, 13, var(--yellow));
+	}
+	&:nth-child(311){
+		@include position(19, 13, var(--yellow));
+	}
+	&:nth-child(312){
+		@include position(20, 13, var(--yellow));
+	}
+	&:nth-child(313){
+		@include position(20, 13, var(--yellow));
+	}
+	&:nth-child(314){
+		@include position(21, 13, var(--yellow));
+	}
+	&:nth-child(315){
+		@include position(22, 13, var(--yellow));
+	}
+	&:nth-child(316){
+		@include position(23, 13, var(--yellow));
+	}
+	&:nth-child(317){
+		@include position(24, 13, var(--yellow));
+	}
+	&:nth-child(318){
+		@include position(25, 13, var(--yellow));
+	}
+	&:nth-child(319){
+		@include position(26, 13, var(--yellow));
+	}
+	&:nth-child(320){
+		@include position(27, 13, var(--yellow));
+	}
+	&:nth-child(321){
+		@include position(28, 13, var(--yellow));
+	}
+	&:nth-child(322){
+		@include position(29, 13, var(--yellow));
+	}
+	&:nth-child(323){
+		@include position(30, 13, var(--yellow));
+	}
+	&:nth-child(324){
+		@include position(31, 13, var(--yellow));
+	}
+	&:nth-child(325){
+		@include position(32, 13, var(--yellow));
+	}
+	&:nth-child(326){
+		@include position(33, 13, var(--yellow));
+	}
+	&:nth-child(327){
+		@include position(34, 13, var(--black));
+	}
+	&:nth-child(328){
+		@include position(35, 13, var(--yellow-shadow));
+	}
+	&:nth-child(329){
+		@include position(36, 13, var(--yellow-shadow));
+	}
+	&:nth-child(330){
+		@include position(37, 13, var(--yellow-shadow));
+	}
+	&:nth-child(331){
+		@include position(38, 13, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(332){
+		@include position(7, 14, var(--black));
+	}
+	&:nth-child(333){
+		@include position(8, 14, var(--black));
+	}
+	&:nth-child(334){
+		@include position(9, 14, var(--black));
+	}
+	&:nth-child(335){
+		@include position(10, 14, var(--yellow));
+	}
+	&:nth-child(336){
+		@include position(11, 14, var(--yellow));
+	}
+	&:nth-child(337){
+		@include position(12, 14, var(--yellow));
+	}
+	&:nth-child(338){
+		@include position(13, 14, var(--yellow));
+	}
+	&:nth-child(339){
+		@include position(14, 14, var(--yellow));
+	}
+	&:nth-child(340){
+		@include position(15, 14, var(--yellow));
+	}
+	&:nth-child(341){
+		@include position(16, 14, var(--yellow));
+	}
+	&:nth-child(342){
+		@include position(17, 14, var(--yellow));
+	}
+	&:nth-child(343){
+		@include position(18, 14, var(--yellow));
+	}
+	&:nth-child(344){
+		@include position(19, 14, var(--yellow));
+	}
+	&:nth-child(345){
+		@include position(20, 14, var(--yellow));
+	}
+	&:nth-child(346){
+		@include position(20, 14, var(--yellow));
+	}
+	&:nth-child(347){
+		@include position(21, 14, var(--yellow));
+	}
+	&:nth-child(348){
+		@include position(22, 14, var(--yellow));
+	}
+	&:nth-child(349){
+		@include position(23, 14, var(--yellow));
+	}
+	&:nth-child(350){
+		@include position(24, 14, var(--yellow));
+	}
+	&:nth-child(351){
+		@include position(25, 14, var(--yellow));
+	}
+	&:nth-child(352){
+		@include position(26, 14, var(--yellow));
+	}
+	&:nth-child(353){
+		@include position(27, 14, var(--yellow));
+	}
+	&:nth-child(354){
+		@include position(28, 14, var(--yellow));
+	}
+	&:nth-child(355){
+		@include position(29, 14, var(--yellow));
+	}
+	&:nth-child(356){
+		@include position(30, 14, var(--yellow));
+	}
+	&:nth-child(357){
+		@include position(31, 14, var(--yellow));
+	}
+	&:nth-child(358){
+		@include position(32, 14, var(--yellow));
+	}
+	&:nth-child(359){
+		@include position(33, 14, var(--yellow));
+	}
+	&:nth-child(360){
+		@include position(34, 14, var(--yellow));
+	}
+	&:nth-child(361){
+		@include position(35, 14, var(--black));
+	}
+	&:nth-child(362){
+		@include position(36, 14, var(--black));
+	}
+	&:nth-child(363){
+		@include position(37, 14, var(--black));
+	}
+	
+	
+	///
+	
+	&:nth-child(366){
+		@include position(8, 15, var(--black));
+	}
+	&:nth-child(367){
+		@include position(9, 15, var(--yellow));
+	}
+	&:nth-child(368){
+		@include position(10, 15, var(--yellow));
+	}
+	&:nth-child(369){
+		@include position(11, 15, var(--yellow));
+	}
+	&:nth-child(370){
+		@include position(12, 15, var(--yellow));
+	}
+	&:nth-child(371){
+		@include position(13, 15, var(--yellow));
+	}
+	&:nth-child(372){
+		@include position(14, 15, var(--yellow));
+	}
+	&:nth-child(373){
+		@include position(15, 15, var(--yellow));
+	}
+	&:nth-child(374){
+		@include position(16, 15, var(--yellow));
+	}
+	&:nth-child(375){
+		@include position(17, 15, var(--yellow));
+	}
+	&:nth-child(376){
+		@include position(18, 15, var(--yellow));
+	}
+	&:nth-child(377){
+		@include position(19, 15, var(--yellow));
+	}
+	&:nth-child(378){
+		@include position(20, 15, var(--yellow));
+	}
+	&:nth-child(379){
+		@include position(20, 15, var(--yellow));
+	}
+	&:nth-child(380){
+		@include position(21, 15, var(--yellow));
+	}
+	&:nth-child(381){
+		@include position(22, 15, var(--yellow));
+	}
+	&:nth-child(382){
+		@include position(23, 15, var(--yellow));
+	}
+	&:nth-child(383){
+		@include position(24, 15, var(--yellow));
+	}
+	&:nth-child(384){
+		@include position(25, 15, var(--yellow));
+	}
+	&:nth-child(385){
+		@include position(26, 15, var(--yellow));
+	}
+	&:nth-child(386){
+		@include position(27, 15, var(--yellow));
+	}
+	&:nth-child(387){
+		@include position(28, 15, var(--yellow));
+	}
+	&:nth-child(388){
+		@include position(29, 15, var(--yellow));
+	}
+	&:nth-child(389){
+		@include position(30, 15, var(--yellow));
+	}
+	&:nth-child(390){
+		@include position(31, 15, var(--yellow));
+	}
+	&:nth-child(391){
+		@include position(32, 15, var(--yellow));
+	}
+	&:nth-child(392){
+		@include position(33, 15, var(--yellow));
+	}
+	&:nth-child(393){
+		@include position(34, 15, var(--yellow));
+	}
+	&:nth-child(394){
+		@include position(35, 15, var(--yellow));
+	}
+	&:nth-child(395){
+		@include position(36, 15, var(--black));
+	}
 
+	///
+	
+	&:nth-child(396){
+		@include position(8, 16, var(--black));
+	}
+	&:nth-child(397){
+		@include position(9, 16, var(--yellow));
+	}
+	&:nth-child(398){
+		@include position(10, 16, var(--yellow));
+	}
+	&:nth-child(399){
+		@include position(11, 16, var(--yellow));
+	}
+	&:nth-child(400){
+		@include position(12, 16, var(--yellow));
+	}
+	&:nth-child(401){
+		@include position(13, 16, var(--yellow));
+	}
+	&:nth-child(402){
+		@include position(14, 16, var(--yellow));
+	}
+	&:nth-child(403){
+		@include position(15, 16, var(--yellow));
+	}
+	&:nth-child(404){
+		@include position(16, 16, var(--yellow));
+	}
+	&:nth-child(405){
+		@include position(17, 16, var(--yellow));
+	}
+	&:nth-child(406){
+		@include position(18, 16, var(--yellow));
+	}
+	&:nth-child(407){
+		@include position(19, 16, var(--yellow));
+	}
+	&:nth-child(408){
+		@include position(20, 16, var(--yellow));
+	}
+	&:nth-child(409){
+		@include position(20, 16, var(--yellow));
+	}
+	&:nth-child(410){
+		@include position(21, 16, var(--yellow));
+	}
+	&:nth-child(411){
+		@include position(22, 16, var(--yellow));
+	}
+	&:nth-child(412){
+		@include position(23, 16, var(--yellow));
+	}
+	&:nth-child(413){
+		@include position(24, 16, var(--yellow));
+	}
+	&:nth-child(414){
+		@include position(25, 16, var(--yellow));
+	}
+	&:nth-child(415){
+		@include position(26, 16, var(--yellow));
+	}
+	&:nth-child(416){
+		@include position(27, 16, var(--yellow));
+	}
+	&:nth-child(417){
+		@include position(28, 16, var(--yellow));
+	}
+	&:nth-child(418){
+		@include position(29, 16, var(--yellow));
+	}
+	&:nth-child(419){
+		@include position(30, 16, var(--yellow));
+	}
+	&:nth-child(420){
+		@include position(31, 16, var(--yellow));
+	}
+	&:nth-child(421){
+		@include position(32, 16, var(--yellow));
+	}
+	&:nth-child(422){
+		@include position(33, 16, var(--yellow));
+	}
+	&:nth-child(423){
+		@include position(34, 16, var(--yellow));
+	}
+	&:nth-child(424){
+		@include position(35, 16, var(--yellow));
+	}
+	&:nth-child(425){
+		@include position(36, 16, var(--black));
+	}
+	
+	///
+	&:nth-child(426){
+		@include position(7, 17, var(--black));
+	}
+	&:nth-child(427){
+		@include position(8, 17, var(--yellow));
+	}
+	&:nth-child(428){
+		@include position(9, 17, var(--yellow));
+	}
+	&:nth-child(429){
+		@include position(10, 17, var(--yellow));
+	}
+	&:nth-child(430){
+		@include position(11, 17, var(--yellow));
+	}
+	&:nth-child(431){
+		@include position(12, 17, var(--yellow));
+	}
+	&:nth-child(432){
+		@include position(13, 17, var(--yellow));
+	}
+	&:nth-child(433){
+		@include position(14, 17, var(--yellow));
+	}
+	&:nth-child(434){
+		@include position(15, 17, var(--yellow));
+	}
+	&:nth-child(435){
+		@include position(16, 17, var(--yellow));
+	}
+	&:nth-child(436){
+		@include position(17, 17, var(--yellow));
+	}
+	&:nth-child(437){
+		@include position(18, 17, var(--yellow));
+	}
+	&:nth-child(438){
+		@include position(19, 17, var(--yellow));
+	}
+	&:nth-child(439){
+		@include position(20, 17, var(--yellow));
+	}
+	&:nth-child(440){
+		@include position(20, 17, var(--yellow));
+	}
+	&:nth-child(441){
+		@include position(21, 17, var(--yellow));
+	}
+	&:nth-child(442){
+		@include position(22, 17, var(--yellow));
+	}
+	&:nth-child(443){
+		@include position(23, 17, var(--yellow));
+	}
+	&:nth-child(444){
+		@include position(24, 17, var(--yellow));
+	}
+	&:nth-child(445){
+		@include position(25, 17, var(--yellow));
+	}
+	&:nth-child(446){
+		@include position(26, 17, var(--yellow));
+	}
+	&:nth-child(447){
+		@include position(27, 17, var(--yellow));
+	}
+	&:nth-child(448){
+		@include position(28, 17, var(--yellow));
+	}
+	&:nth-child(449){
+		@include position(29, 17, var(--yellow));
+	}
+	&:nth-child(450){
+		@include position(30, 17, var(--yellow));
+	}
+	&:nth-child(451){
+		@include position(31, 17, var(--yellow));
+	}
+	&:nth-child(452){
+		@include position(32, 17, var(--yellow));
+	}
+	&:nth-child(453){
+		@include position(33, 17, var(--yellow));
+	}
+	&:nth-child(454){
+		@include position(34, 17, var(--yellow));
+	}
+	&:nth-child(455){
+		@include position(35, 17, var(--yellow));
+	}
+	&:nth-child(456){
+		@include position(36, 17, var(--yellow));
+	}
+	&:nth-child(457){
+		@include position(37, 17, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(458){
+		@include position(7, 18, var(--black));
+	}
+	&:nth-child(459){
+		@include position(8, 18, var(--yellow));
+	}
+	&:nth-child(460){
+		@include position(9, 18, var(--yellow));
+	}
+	&:nth-child(461){
+		@include position(10, 18, var(--yellow));
+	}
+	&:nth-child(462){
+		@include position(11, 18, var(--yellow));
+	}
+	&:nth-child(463){
+		@include position(12, 18, var(--yellow));
+	}
+	&:nth-child(464){
+		@include position(13, 18, var(--yellow));
+	}
+	&:nth-child(465){
+		@include position(14, 18, var(--yellow));
+	}
+	&:nth-child(466){
+		@include position(15, 18, var(--yellow));
+	}
+	&:nth-child(467){
+		@include position(16, 18, var(--yellow));
+	}
+	&:nth-child(468){
+		@include position(17, 18, var(--yellow));
+	}
+	&:nth-child(469){
+		@include position(18, 18, var(--yellow));
+	}
+	&:nth-child(470){
+		@include position(19, 18, var(--yellow));
+	}
+	&:nth-child(471){
+		@include position(20, 18, var(--yellow));
+	}
+	&:nth-child(472){
+		@include position(20, 18, var(--yellow));
+	}
+	&:nth-child(473){
+		@include position(21, 18, var(--yellow));
+	}
+	&:nth-child(474){
+		@include position(22, 18, var(--yellow));
+	}
+	&:nth-child(475){
+		@include position(23, 18, var(--yellow));
+	}
+	&:nth-child(476){
+		@include position(24, 18, var(--yellow));
+	}
+	&:nth-child(477){
+		@include position(25, 18, var(--yellow));
+	}
+	&:nth-child(478){
+		@include position(26, 18, var(--yellow));
+	}
+	&:nth-child(479){
+		@include position(27, 18, var(--yellow));
+	}
+	&:nth-child(480){
+		@include position(28, 18, var(--yellow));
+	}
+	&:nth-child(481){
+		@include position(29, 18, var(--yellow));
+	}
+	&:nth-child(482){
+		@include position(30, 18, var(--yellow));
+	}
+	&:nth-child(483){
+		@include position(31, 18, var(--yellow));
+	}
+	&:nth-child(484){
+		@include position(32, 18, var(--yellow));
+	}
+	&:nth-child(485){
+		@include position(33, 18, var(--yellow));
+	}
+	&:nth-child(486){
+		@include position(34, 18, var(--yellow));
+	}
+	&:nth-child(487){
+		@include position(35, 18, var(--yellow));
+	}
+	&:nth-child(489){
+		@include position(36, 18, var(--yellow));
+	}
+	&:nth-child(490){
+		@include position(37, 18, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(491){
+		@include position(7, 19, var(--black));
+	}
+	&:nth-child(492){
+		@include position(8, 19, var(--yellow));
+	}
+	&:nth-child(493){
+		@include position(9, 19, var(--yellow));
+	}
+	&:nth-child(494){
+		@include position(10, 19, var(--yellow));
+	}
+	&:nth-child(495){
+		@include position(11, 19, var(--yellow));
+	}
+	&:nth-child(496){
+		@include position(12, 19, var(--black));
+	}
+	&:nth-child(497){
+		@include position(13, 19, var(--black));
+	}
+	&:nth-child(498){
+		@include position(14, 19, var(--black));
+	}
+	&:nth-child(499){
+		@include position(15, 19, var(--black));
+	}
+	&:nth-child(500){
+		@include position(16, 19, var(--yellow));
+	}
+	&:nth-child(501){
+		@include position(17, 19, var(--yellow));
+	}
+	&:nth-child(502){
+		@include position(18, 19, var(--yellow));
+	}
+	&:nth-child(503){
+		@include position(19, 19, var(--yellow));
+	}
+	&:nth-child(504){
+		@include position(20, 19, var(--yellow));
+	}
+	&:nth-child(505){
+		@include position(20, 19, var(--yellow));
+	}
+	&:nth-child(506){
+		@include position(21, 19, var(--yellow));
+	}
+	&:nth-child(507){
+		@include position(22, 19, var(--yellow));
+	}
+	&:nth-child(508){
+		@include position(23, 19, var(--yellow));
+	}
+	&:nth-child(509){
+		@include position(24, 19, var(--yellow));
+	}
+	&:nth-child(510){
+		@include position(25, 19, var(--yellow));
+	}
+	&:nth-child(511){
+		@include position(26, 19, var(--yellow));
+	}
+	&:nth-child(512){
+		@include position(27, 19, var(--yellow));
+	}
+	&:nth-child(513){
+		@include position(28, 19, var(--yellow));
+	}
+	&:nth-child(514){
+		@include position(29, 19, var(--black));
+	}
+	&:nth-child(515){
+		@include position(30, 19, var(--black));
+	}
+	&:nth-child(516){
+		@include position(31, 19, var(--black));
+	}
+	&:nth-child(517){
+		@include position(32, 19, var(--black));
+	}
+	&:nth-child(518){
+		@include position(33, 19, var(--yellow));
+	}
+	&:nth-child(519){
+		@include position(34, 19, var(--yellow));
+	}
+	&:nth-child(520){
+		@include position(35, 19, var(--yellow));
+	}
+	&:nth-child(521){
+		@include position(36, 19, var(--yellow));
+	}
+	&:nth-child(522){
+		@include position(37, 19, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(523){
+		@include position(7, 20, var(--black));
+	}
+	&:nth-child(524){
+		@include position(8, 20, var(--yellow));
+	}
+	&:nth-child(525){
+		@include position(9, 20, var(--yellow));
+	}
+	&:nth-child(526){
+		@include position(10, 20, var(--yellow));
+	}
+	&:nth-child(527){
+		@include position(11, 20, var(--black));
+	}
+	&:nth-child(528){
+		@include position(12, 20, var(--black));
+	}
+	&:nth-child(529){
+		@include position(13, 20, var(--black));
+	}
+	&:nth-child(530){
+		@include position(14, 20, var(--eyelid));
+	}
+	&:nth-child(531){
+		@include position(15, 20, var(--black));
+	}
+	&:nth-child(532){
+		@include position(16, 20, var(--black));
+	}
+	&:nth-child(533){
+		@include position(17, 20, var(--yellow));
+	}
+	&:nth-child(534){
+		@include position(18, 20, var(--yellow));
+	}
+	&:nth-child(535){
+		@include position(19, 20, var(--yellow));
+	}
+	&:nth-child(536){
+		@include position(20, 20, var(--yellow));
+	}
+	&:nth-child(537){
+		@include position(20, 20, var(--yellow));
+	}
+	&:nth-child(538){
+		@include position(21, 20, var(--yellow));
+	}
+	&:nth-child(539){
+		@include position(22, 20, var(--yellow));
+	}
+	&:nth-child(540){
+		@include position(23, 20, var(--yellow));
+	}
+	&:nth-child(541){
+		@include position(24, 20, var(--yellow));
+	}
+	&:nth-child(542){
+		@include position(25, 20, var(--yellow));
+	}
+	&:nth-child(543){
+		@include position(26, 20, var(--yellow));
+	}
+	&:nth-child(544){
+		@include position(27, 20, var(--yellow));
+	}
+	&:nth-child(545){
+		@include position(28, 20, var(--black));
+	}
+	&:nth-child(546){
+		@include position(29, 20, var(--black));
+	}
+	&:nth-child(547){
+		@include position(30, 20, var(--eyelid));
+	}
+	&:nth-child(548){
+		@include position(31, 20, var(--black));
+	}
+	&:nth-child(549){
+		@include position(32, 20, var(--black));
+	}
+	&:nth-child(550){
+		@include position(33, 20, var(--black));
+	}
+	&:nth-child(551){
+		@include position(34, 20, var(--yellow));
+	}
+	&:nth-child(552){
+		@include position(35, 20, var(--yellow));
+	}
+	&:nth-child(553){
+		@include position(36, 20, var(--yellow));
+	}
+	&:nth-child(554){
+		@include position(37, 20, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(555){
+		@include position(7, 21, var(--black));
+	}
+	&:nth-child(556){
+		@include position(8, 21, var(--yellow));
+	}
+	&:nth-child(557){
+		@include position(9, 21, var(--yellow));
+	}
+	&:nth-child(558){
+		@include position(10, 21, var(--black));
+	}
+	&:nth-child(559){
+		@include position(11, 21, var(--black));
+	}
+	&:nth-child(560){
+		@include position(12, 21, var(--black));
+	}
+	&:nth-child(561){
+		@include position(13, 21, var(--eyelid));
+	}
+	&:nth-child(562){
+		@include position(14, 21, var(--eyelid));
+	}
+	&:nth-child(563){
+		@include position(15, 21, var(--eyelid));
+	}
+	&:nth-child(564){
+		@include position(16, 21, var(--black));
+	}
+	&:nth-child(565){
+		@include position(17, 21, var(--yellow));
+	}
+	&:nth-child(566){
+		@include position(18, 21, var(--yellow));
+	}
+	&:nth-child(567){
+		@include position(19, 21, var(--yellow));
+	}
+	&:nth-child(568){
+		@include position(20, 21, var(--yellow));
+	}
+	&:nth-child(569){
+		@include position(20, 21, var(--yellow));
+	}
+	&:nth-child(570){
+		@include position(21, 21, var(--yellow));
+	}
+	&:nth-child(571){
+		@include position(22, 21, var(--yellow));
+	}
+	&:nth-child(572){
+		@include position(23, 21, var(--yellow));
+	}
+	&:nth-child(573){
+		@include position(24, 21, var(--yellow));
+	}
+	&:nth-child(574){
+		@include position(25, 21, var(--yellow));
+	}
+	&:nth-child(575){
+		@include position(26, 21, var(--yellow));
+	}
+	&:nth-child(576){
+		@include position(27, 21, var(--yellow));
+	}
+	&:nth-child(577){
+		@include position(28, 21, var(--black));
+	}
+	&:nth-child(578){
+		@include position(29, 21, var(--eyelid));
+	}
+	&:nth-child(579){
+		@include position(30, 21, var(--eyelid));
+	}
+	&:nth-child(580){
+		@include position(31, 21, var(--eyelid));
+	}
+	&:nth-child(581){
+		@include position(32, 21, var(--black));
+	}
+	&:nth-child(582){
+		@include position(33, 21, var(--black));
+	}
+	&:nth-child(583){
+		@include position(34, 21, var(--black));
+	}
+	&:nth-child(584){
+		@include position(35, 21, var(--yellow));
+	}
+	&:nth-child(585){
+		@include position(36, 21, var(--yellow));
+	}
+	&:nth-child(586){
+		@include position(37, 21, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(587){
+		@include position(7, 22, var(--black));
+	}
+	&:nth-child(588){
+		@include position(8, 22, var(--yellow));
+	}
+	&:nth-child(589){
+		@include position(9, 22, var(--yellow));
+	}
+	&:nth-child(590){
+		@include position(10, 22, var(--black));
+	}
+	&:nth-child(591){
+		@include position(11, 22, var(--black));
+	}
+	&:nth-child(592){
+		@include position(12, 22, var(--black));
+	}
+	&:nth-child(593){
+		@include position(13, 22, var(--black));
+	}
+	&:nth-child(594){
+		@include position(14, 22, var(--eyelid));
+	}
+	&:nth-child(595){
+		@include position(15, 22, var(--eyelid));
+	}
+	&:nth-child(596){
+		@include position(16, 22, var(--black));
+	}
+	&:nth-child(597){
+		@include position(17, 22, var(--yellow));
+	}
+	&:nth-child(598){
+		@include position(18, 22, var(--yellow));
+	}
+	&:nth-child(599){
+		@include position(19, 22, var(--yellow));
+	}
+	&:nth-child(600){
+		@include position(20, 22, var(--yellow));
+	}
+	&:nth-child(601){
+		@include position(20, 22, var(--yellow));
+	}
+	&:nth-child(602){
+		@include position(21, 22, var(--yellow));
+	}
+	&:nth-child(603){
+		@include position(22, 22, var(--yellow));
+	}
+	&:nth-child(604){
+		@include position(23, 22, var(--yellow));
+	}
+	&:nth-child(605){
+		@include position(24, 22, var(--yellow));
+	}
+	&:nth-child(606){
+		@include position(25, 22, var(--yellow));
+	}
+	&:nth-child(607){
+		@include position(26, 22, var(--yellow));
+	}
+	&:nth-child(608){
+		@include position(27, 22, var(--yellow));
+	}
+	&:nth-child(609){
+		@include position(28, 22, var(--black));
+	}
+	&:nth-child(610){
+		@include position(29, 22, var(--eyelid));
+	}
+	&:nth-child(611){
+		@include position(30, 22, var(--eyelid));
+	}
+	&:nth-child(612){
+		@include position(31, 22, var(--black));
+	}
+	&:nth-child(613){
+		@include position(32, 22, var(--black));
+	}
+	&:nth-child(614){
+		@include position(33, 22, var(--black));
+	}
+	&:nth-child(615){
+		@include position(34, 22, var(--black));
+	}
+	&:nth-child(616){
+		@include position(35, 22, var(--yellow));
+	}
+	&:nth-child(617){
+		@include position(36, 22, var(--yellow));
+	}
+	&:nth-child(618){
+		@include position(37, 22, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(619){
+		@include position(7, 23, var(--black));
+	}
+	&:nth-child(620){
+		@include position(8, 23, var(--yellow));
+	}
+	&:nth-child(621){
+		@include position(9, 23, var(--yellow));
+	}
+	&:nth-child(622){
+		@include position(10, 23, var(--black));
+	}
+	&:nth-child(623){
+		@include position(11, 23, var(--black));
+	}
+	&:nth-child(624){
+		@include position(12, 23, var(--black));
+	}
+	&:nth-child(625){
+		@include position(13, 23, var(--black));
+	}
+	&:nth-child(626){
+		@include position(14, 23, var(--black));
+	}
+	&:nth-child(627){
+		@include position(15, 23, var(--black));
+	}
+	&:nth-child(628){
+		@include position(16, 23, var(--black));
+	}
+	&:nth-child(629){
+		@include position(17, 23, var(--yellow));
+	}
+	&:nth-child(630){
+		@include position(18, 23, var(--yellow));
+	}
+	&:nth-child(631){
+		@include position(19, 23, var(--yellow));
+	}
+	&:nth-child(632){
+		@include position(20, 23, var(--yellow));
+	}
+	&:nth-child(633){
+		@include position(20, 23, var(--yellow));
+	}
+	&:nth-child(634){
+		@include position(21, 23, var(--yellow));
+	}
+	&:nth-child(635){
+		@include position(22, 23, var(--yellow));
+	}
+	&:nth-child(636){
+		@include position(23, 23, var(--yellow));
+	}
+	&:nth-child(637){
+		@include position(24, 23, var(--yellow));
+	}
+	&:nth-child(638){
+		@include position(25, 23, var(--yellow));
+	}
+	&:nth-child(639){
+		@include position(26, 23, var(--yellow));
+	}
+	&:nth-child(640){
+		@include position(27, 23, var(--yellow));
+	}
+	&:nth-child(641){
+		@include position(28, 23, var(--black));
+	}
+	&:nth-child(642){
+		@include position(29, 23, var(--black));
+	}
+	&:nth-child(643){
+		@include position(30, 23, var(--black));
+	}
+	&:nth-child(644){
+		@include position(31, 23, var(--black));
+	}
+	&:nth-child(645){
+		@include position(32, 23, var(--black));
+	}
+	&:nth-child(646){
+		@include position(33, 23, var(--black));
+	}
+	&:nth-child(647){
+		@include position(34, 23, var(--black));
+	}
+	&:nth-child(648){
+		@include position(35, 23, var(--yellow));
+	}
+	&:nth-child(649){
+		@include position(36, 23, var(--yellow));
+	}
+	&:nth-child(650){
+		@include position(37, 23, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(651){
+		@include position(7, 24, var(--black));
+	}
+	&:nth-child(652){
+		@include position(8, 24, var(--yellow));
+	}
+	&:nth-child(653){
+		@include position(9, 24, var(--yellow));
+	}
+	&:nth-child(654){
+		@include position(10, 24, var(--black));
+	}
+	&:nth-child(655){
+		@include position(11, 24, var(--black));
+	}
+	&:nth-child(656){
+		@include position(12, 24, var(--black));
+	}
+	&:nth-child(657){
+		@include position(13, 24, var(--black));
+	}
+	&:nth-child(658){
+		@include position(14, 24, var(--black));
+	}
+	&:nth-child(659){
+		@include position(15, 24, var(--black));
+	}
+	&:nth-child(660){
+		@include position(16, 24, var(--black));
+	}
+	&:nth-child(661){
+		@include position(17, 24, var(--yellow));
+	}
+	&:nth-child(662){
+		@include position(18, 24, var(--yellow));
+	}
+	&:nth-child(663){
+		@include position(19, 24, var(--yellow));
+	}
+	&:nth-child(664){
+		@include position(20, 24, var(--yellow));
+	}
+	&:nth-child(665){
+		@include position(20, 24, var(--yellow));
+	}
+	&:nth-child(666){
+		@include position(21, 24, var(--yellow));
+	}
+	&:nth-child(667){
+		@include position(22, 24, var(--yellow));
+	}
+	&:nth-child(668){
+		@include position(23, 24, var(--yellow));
+	}
+	&:nth-child(669){
+		@include position(24, 24, var(--yellow));
+	}
+	&:nth-child(670){
+		@include position(25, 24, var(--yellow));
+	}
+	&:nth-child(671){
+		@include position(26, 24, var(--yellow));
+	}
+	&:nth-child(672){
+		@include position(27, 24, var(--yellow));
+	}
+	&:nth-child(673){
+		@include position(28, 24, var(--black));
+	}
+	&:nth-child(674){
+		@include position(29, 24, var(--black));
+	}
+	&:nth-child(675){
+		@include position(30, 24, var(--black));
+	}
+	&:nth-child(676){
+		@include position(31, 24, var(--black));
+	}
+	&:nth-child(677){
+		@include position(32, 24, var(--black));
+	}
+	&:nth-child(678){
+		@include position(33, 24, var(--black));
+	}
+	&:nth-child(679){
+		@include position(34, 24, var(--black));
+	}
+	&:nth-child(680){
+		@include position(35, 24, var(--yellow));
+	}
+	&:nth-child(681){
+		@include position(36, 24, var(--yellow));
+	}
+	&:nth-child(682){
+		@include position(37, 24, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(683){
+		@include position(7, 25, var(--black));
+	}
+	&:nth-child(684){
+		@include position(8, 25, var(--yellow));
+	}
+	&:nth-child(685){
+		@include position(9, 25, var(--yellow));
+	}
+	&:nth-child(686){
+		@include position(10, 25, var(--yellow));
+	}
+	&:nth-child(687){
+		@include position(11, 25, var(--black));
+	}
+	&:nth-child(688){
+		@include position(12, 25, var(--black));
+	}
+	&:nth-child(689){
+		@include position(13, 25, var(--black));
+	}
+	&:nth-child(690){
+		@include position(14, 25, var(--black));
+	}
+	&:nth-child(691){
+		@include position(15, 25, var(--black));
+	}
+	&:nth-child(692){
+		@include position(16, 25, var(--yellow));
+	}
+	&:nth-child(693){
+		@include position(17, 25, var(--yellow));
+	}
+	&:nth-child(694){
+		@include position(18, 25, var(--yellow));
+	}
+	&:nth-child(695){
+		@include position(19, 25, var(--yellow));
+	}
+	&:nth-child(696){
+		@include position(20, 25, var(--yellow));
+	}
+	&:nth-child(697){
+		@include position(20, 25, var(--yellow));
+	}
+	&:nth-child(698){
+		@include position(21, 25, var(--black));
+	}
+	&:nth-child(699){
+		@include position(22, 25, var(--black));
+	}
+	&:nth-child(700){
+		@include position(23, 25, var(--black));
+	}
+	&:nth-child(701){
+		@include position(24, 25, var(--yellow));
+	}
+	&:nth-child(702){
+		@include position(25, 25, var(--yellow));
+	}
+	&:nth-child(703){
+		@include position(26, 25, var(--yellow));
+	}
+	&:nth-child(704){
+		@include position(27, 25, var(--yellow));
+	}
+	&:nth-child(705){
+		@include position(28, 25, var(--yellow));
+	}
+	&:nth-child(706){
+		@include position(29, 25, var(--black));
+	}
+	&:nth-child(707){
+		@include position(30, 25, var(--black));
+	}
+	&:nth-child(708){
+		@include position(31, 25, var(--black));
+	}
+	&:nth-child(709){
+		@include position(32, 25, var(--black));
+	}
+	&:nth-child(710){
+		@include position(33, 25, var(--black));
+	}
+	&:nth-child(711){
+		@include position(34, 25, var(--yellow));
+	}
+	&:nth-child(712){
+		@include position(35, 25, var(--yellow));
+	}
+	&:nth-child(713){
+		@include position(36, 25, var(--yellow));
+	}
+	&:nth-child(714){
+		@include position(37, 25, var(--black));
+	}
+	
+	///
+	&:nth-child(715){
+		@include position(6, 26, var(--black));
+	}
+	&:nth-child(716){
+		@include position(7, 26, var(--yellow));
+	}
+	&:nth-child(717){
+		@include position(8, 26, var(--yellow));
+	}
+	&:nth-child(718){
+		@include position(9, 26, var(--yellow));
+	}
+	&:nth-child(719){
+		@include position(10, 26, var(--yellow));
+	}
+	&:nth-child(720){
+		@include position(11, 26, var(--yellow));
+	}
+	&:nth-child(721){
+		@include position(12, 26, var(--yellow));
+	}
+	&:nth-child(722){
+		@include position(13, 26, var(--yellow));
+	}
+	&:nth-child(723){
+		@include position(14, 26, var(--yellow));
+	}
+	&:nth-child(724){
+		@include position(15, 26, var(--yellow));
+	}
+	&:nth-child(725){
+		@include position(16, 26, var(--yellow));
+	}
+	&:nth-child(726){
+		@include position(17, 26, var(--yellow));
+	}
+	&:nth-child(727){
+		@include position(18, 26, var(--yellow));
+	}
+	&:nth-child(728){
+		@include position(19, 26, var(--yellow));
+	}
+	&:nth-child(729){
+		@include position(20, 26, var(--yellow));
+	}
+	&:nth-child(730){
+		@include position(20, 26, var(--yellow));
+	}
+	&:nth-child(731){
+		@include position(21, 26, var(--yellow));
+	}
+	&:nth-child(732){
+		@include position(22, 26, var(--black));
+	}
+	&:nth-child(733){
+		@include position(23, 26, var(--yellow));
+	}
+	&:nth-child(734){
+		@include position(24, 26, var(--yellow));
+	}
+	&:nth-child(735){
+		@include position(25, 26, var(--yellow));
+	}
+	&:nth-child(736){
+		@include position(26, 26, var(--yellow));
+	}
+	&:nth-child(737){
+		@include position(27, 26, var(--yellow));
+	}
+	&:nth-child(738){
+		@include position(28, 26, var(--yellow));
+	}
+	&:nth-child(739){
+		@include position(29, 26, var(--yellow));
+	}
+	&:nth-child(740){
+		@include position(30, 26, var(--yellow));
+	}
+	&:nth-child(741){
+		@include position(31, 26, var(--yellow));
+	}
+	&:nth-child(742){
+		@include position(32, 26, var(--yellow));
+	}
+	&:nth-child(743){
+		@include position(33, 26, var(--yellow));
+	}
+	&:nth-child(744){
+		@include position(34, 26, var(--yellow));
+	}
+	&:nth-child(745){
+		@include position(35, 26, var(--yellow));
+	}
+	&:nth-child(746){
+		@include position(36, 26, var(--yellow));
+	}
+	&:nth-child(747){
+		@include position(37, 26, var(--yellow));
+	}
+	&:nth-child(1125){
+		@include position(38, 26, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(748){
+		@include position(6, 27, var(--black));
+	}
+	&:nth-child(749){
+		@include position(7, 27, var(--yellow));
+	}
+	&:nth-child(750){
+		@include position(8, 27, var(--black));
+	}
+	&:nth-child(751){
+		@include position(9, 27, var(--black));
+	}
+	&:nth-child(752){
+		@include position(10, 27, var(--black));
+	}
+	&:nth-child(753){
+		@include position(11, 27, var(--black));
+	}
+	&:nth-child(754){
+		@include position(12, 27, var(--black));
+	}
+	&:nth-child(755){
+		@include position(13, 27, var(--yellow));
+	}
+	&:nth-child(756){
+		@include position(14, 27, var(--yellow));
+	}
+	&:nth-child(757){
+		@include position(15, 27, var(--yellow));
+	}
+	&:nth-child(758){
+		@include position(16, 27, var(--yellow));
+	}
+	&:nth-child(759){
+		@include position(17, 27, var(--yellow));
+	}
+	&:nth-child(760){
+		@include position(18, 27, var(--yellow));
+	}
+	&:nth-child(761){
+		@include position(19, 27, var(--yellow));
+	}
+	&:nth-child(762){
+		@include position(20, 27, var(--yellow));
+	}
+	&:nth-child(763){
+		@include position(20, 27, var(--yellow));
+	}
+	&:nth-child(764){
+		@include position(21, 27, var(--yellow));
+	}
+	&:nth-child(765){
+		@include position(22, 27, var(--yellow));
+	}
+	&:nth-child(766){
+		@include position(23, 27, var(--yellow));
+	}
+	&:nth-child(767){
+		@include position(24, 27, var(--yellow));
+	}
+	&:nth-child(768){
+		@include position(25, 27, var(--yellow));
+	}
+	&:nth-child(769){
+		@include position(26, 27, var(--yellow));
+	}
+	&:nth-child(770){
+		@include position(27, 27, var(--yellow));
+	}
+	&:nth-child(771){
+		@include position(28, 27, var(--yellow));
+	}
+	&:nth-child(772){
+		@include position(29, 27, var(--yellow));
+	}
+	&:nth-child(773){
+		@include position(30, 27, var(--yellow));
+	}
+	&:nth-child(774){
+		@include position(31, 27, var(--yellow));
+	}
+	&:nth-child(775){
+		@include position(32, 27, var(--black));
+	}
+	&:nth-child(776){
+		@include position(33, 27, var(--black));
+	}
+	&:nth-child(777){
+		@include position(34, 27, var(--black));
+	}
+	&:nth-child(778){
+		@include position(35, 27, var(--black));
+	}
+	&:nth-child(779){
+		@include position(36, 27, var(--black));
+	}
+	&:nth-child(780){
+		@include position(37, 27, var(--yellow));
+	}
+	&:nth-child(1126){
+		@include position(38, 27, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(781){
+		@include position(6, 28, var(--black));
+	}
+	&:nth-child(782){
+		@include position(7, 28, var(--black));
+	}
+	&:nth-child(783){
+		@include position(8, 28, var(--cheek));
+	}
+	&:nth-child(784){
+		@include position(9, 28, var(--cheek));
+	}
+	&:nth-child(785){
+		@include position(10, 28, var(--cheek));
+	}
+	&:nth-child(786){
+		@include position(11, 28, var(--cheek));
+	}
+	&:nth-child(787){
+		@include position(12, 28, var(--cheek));
+	}
+	&:nth-child(788){
+		@include position(13, 28, var(--black));
+	}
+	&:nth-child(789){
+		@include position(14, 28, var(--yellow));
+	}
+	&:nth-child(790){
+		@include position(15, 28, var(--yellow));
+	}
+	&:nth-child(791){
+		@include position(16, 28, var(--yellow));
+	}
+	&:nth-child(792){
+		@include position(17, 28, var(--black));
+	}
+	&:nth-child(793){
+		@include position(18, 28, var(--yellow));
+	}
+	&:nth-child(794){
+		@include position(19, 28, var(--yellow));
+	}
+	&:nth-child(795){
+		@include position(20, 28, var(--yellow));
+	}
+	&:nth-child(796){
+		@include position(20, 28, var(--yellow));
+	}
+	&:nth-child(797){
+		@include position(21, 28, var(--yellow));
+	}
+	&:nth-child(798){
+		@include position(22, 28, var(--black));
+	}
+	&:nth-child(799){
+		@include position(23, 28, var(--yellow));
+	}
+	&:nth-child(800){
+		@include position(24, 28, var(--yellow));
+	}
+	&:nth-child(801){
+		@include position(25, 28, var(--yellow));
+	}
+	&:nth-child(802){
+		@include position(26, 28, var(--yellow));
+	}
+	&:nth-child(803){
+		@include position(27, 28, var(--black));
+	}
+	&:nth-child(804){
+		@include position(28, 28, var(--yellow));
+	}
+	&:nth-child(805){
+		@include position(29, 28, var(--yellow));
+	}
+	&:nth-child(806){
+		@include position(30, 28, var(--yellow));
+	}
+	&:nth-child(807){
+		@include position(31, 28, var(--black));
+	}
+	&:nth-child(808){
+		@include position(32, 28, var(--cheek));
+	}
+	&:nth-child(809){
+		@include position(33, 28, var(--cheek));
+	}
+	&:nth-child(810){
+		@include position(34, 28, var(--cheek));
+	}
+	&:nth-child(811){
+		@include position(35, 28, var(--cheek));
+	}
+	&:nth-child(812){
+		@include position(36, 28, var(--cheek));
+	}
+	&:nth-child(813){
+		@include position(37, 28, var(--black));
+	}
+	&:nth-child(1127){
+		@include position(38, 28, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(814){
+		@include position(6, 29, var(--black));
+	}
+	&:nth-child(815){
+		@include position(7, 29, var(--cheek));
+	}
+	&:nth-child(816){
+		@include position(8, 29, var(--cheek));
+	}
+	&:nth-child(817){
+		@include position(9, 29, var(--cheek));
+	}
+	&:nth-child(818){
+		@include position(10, 29, var(--cheek));
+	}
+	&:nth-child(819){
+		@include position(11, 29, var(--cheek));
+	}
+	&:nth-child(820){
+		@include position(12, 29, var(--cheek));
+	}
+	&:nth-child(821){
+		@include position(13, 29, var(--cheek));
+	}
+	&:nth-child(822){
+		@include position(14, 29, var(--black));
+	}
+	&:nth-child(823){
+		@include position(15, 29, var(--yellow));
+	}
+	&:nth-child(824){
+		@include position(16, 29, var(--yellow));
+	}
+	&:nth-child(825){
+		@include position(17, 29, var(--yellow));
+	}
+	&:nth-child(826){
+		@include position(18, 29, var(--black));
+	}
+	&:nth-child(827){
+		@include position(19, 29, var(--black));
+	}
+	&:nth-child(828){
+		@include position(20, 29, var(--black));
+	}
+	&:nth-child(829){
+		@include position(20, 29, var(--black));
+	}
+	&:nth-child(830){
+		@include position(21, 29, var(--black));
+	}
+	&:nth-child(831){
+		@include position(22, 29, var(--tongue));
+	}
+	&:nth-child(832){
+		@include position(23, 29, var(--black));
+	}
+	&:nth-child(833){
+		@include position(24, 29, var(--black));
+	}
+	&:nth-child(834){
+		@include position(25, 29, var(--black));
+	}
+	&:nth-child(835){
+		@include position(26, 29, var(--black));
+	}
+	&:nth-child(836){
+		@include position(27, 29, var(--yellow));
+	}
+	&:nth-child(837){
+		@include position(28, 29, var(--yellow));
+	}
+	&:nth-child(838){
+		@include position(29, 29, var(--yellow));
+	}
+	&:nth-child(839){
+		@include position(30, 29, var(--black));
+	}
+	&:nth-child(840){
+		@include position(31, 29, var(--cheek));
+	}
+	&:nth-child(841){
+		@include position(32, 29, var(--cheek));
+	}
+	&:nth-child(842){
+		@include position(33, 29, var(--cheek));
+	}
+	&:nth-child(843){
+		@include position(34, 29, var(--cheek));
+	}
+	&:nth-child(844){
+		@include position(35, 29, var(--cheek));
+	}
+	&:nth-child(845){
+		@include position(36, 29, var(--cheek));
+	}
+	&:nth-child(846){
+		@include position(37, 29, var(--cheek));
+	}
+	&:nth-child(1128){
+		@include position(38, 29, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(847){
+		@include position(6, 30, var(--black));
+	}
+	&:nth-child(848){
+		@include position(7, 30, var(--cheek));
+	}
+	&:nth-child(849){
+		@include position(8, 30, var(--cheek));
+	}
+	&:nth-child(850){
+		@include position(9, 30, var(--cheek));
+	}
+	&:nth-child(851){
+		@include position(10, 30, var(--cheek));
+	}
+	&:nth-child(852){
+		@include position(11, 30, var(--cheek));
+	}
+	&:nth-child(853){
+		@include position(12, 30, var(--cheek));
+	}
+	&:nth-child(854){
+		@include position(13, 30, var(--cheek));
+	}
+	&:nth-child(855){
+		@include position(14, 30, var(--black));
+	}
+	&:nth-child(856){
+		@include position(15, 30, var(--yellow));
+	}
+	&:nth-child(857){
+		@include position(16, 30, var(--yellow));
+	}
+	&:nth-child(858){
+		@include position(17, 30, var(--yellow));
+	}
+	&:nth-child(859){
+		@include position(18, 30, var(--yellow));
+	}
+	&:nth-child(860){
+		@include position(19, 30, var(--black));
+	}
+	&:nth-child(861){
+		@include position(20, 30, var(--tongue));
+	}
+	&:nth-child(862){
+		@include position(20, 30, var(--tongue));
+	}
+	&:nth-child(863){
+		@include position(21, 30, var(--tongue));
+	}
+	&:nth-child(864){
+		@include position(22, 30, var(--tongue));
+	}
+	&:nth-child(865){
+		@include position(23, 30, var(--tongue));
+	}
+	&:nth-child(866){
+		@include position(24, 30, var(--tongue));
+	}
+	&:nth-child(867){
+		@include position(25, 30, var(--black));
+	}
+	&:nth-child(868){
+		@include position(26, 30, var(--yellow));
+	}
+	&:nth-child(869){
+		@include position(27, 30, var(--yellow));
+	}
+	&:nth-child(870){
+		@include position(28, 30, var(--yellow));
+	}
+	&:nth-child(871){
+		@include position(29, 30, var(--yellow));
+	}
+	&:nth-child(872){
+		@include position(30, 30, var(--black));
+	}
+	&:nth-child(873){
+		@include position(31, 30, var(--cheek));
+	}
+	&:nth-child(874){
+		@include position(32, 30, var(--cheek));
+	}
+	&:nth-child(875){
+		@include position(33, 30, var(--cheek));
+	}
+	&:nth-child(876){
+		@include position(34, 30, var(--cheek));
+	}
+	&:nth-child(877){
+		@include position(35, 30, var(--cheek));
+	}
+	&:nth-child(878){
+		@include position(36, 30, var(--cheek));
+	}
+	&:nth-child(879){
+		@include position(37, 30, var(--cheek));
+	}
+	&:nth-child(1129){
+		@include position(38, 30, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(880){
+		@include position(6, 31, var(--black));
+	}
+	&:nth-child(881){
+		@include position(7, 31, var(--cheek));
+	}
+	&:nth-child(882){
+		@include position(8, 31, var(--cheek));
+	}
+	&:nth-child(883){
+		@include position(9, 31, var(--cheek));
+	}
+	&:nth-child(884){
+		@include position(10, 31, var(--cheek));
+	}
+	&:nth-child(885){
+		@include position(11, 31, var(--cheek));
+	}
+	&:nth-child(886){
+		@include position(12, 31, var(--cheek));
+	}
+	&:nth-child(887){
+		@include position(13, 31, var(--cheek));
+	}
+	&:nth-child(888){
+		@include position(14, 31, var(--black));
+	}
+	&:nth-child(889){
+		@include position(15, 31, var(--yellow));
+	}
+	&:nth-child(890){
+		@include position(16, 31, var(--yellow));
+	}
+	&:nth-child(891){
+		@include position(17, 31, var(--yellow));
+	}
+	&:nth-child(892){
+		@include position(18, 31, var(--yellow));
+	}
+	&:nth-child(893){
+		@include position(19, 31, var(--black));
+	}
+	&:nth-child(894){
+		@include position(20, 31, var(--tongue));
+	}
+	&:nth-child(895){
+		@include position(20, 31, var(--tongue));
+	}
+	&:nth-child(896){
+		@include position(21, 31, var(--tongue));
+	}
+	&:nth-child(897){
+		@include position(22, 31, var(--tongue));
+	}
+	&:nth-child(898){
+		@include position(23, 31, var(--tongue));
+	}
+	&:nth-child(899){
+		@include position(24, 31, var(--tongue));
+	}
+	&:nth-child(900){
+		@include position(25, 31, var(--black));
+	}
+	&:nth-child(901){
+		@include position(26, 31, var(--yellow));
+	}
+	&:nth-child(902){
+		@include position(27, 31, var(--yellow));
+	}
+	&:nth-child(903){
+		@include position(28, 31, var(--yellow));
+	}
+	&:nth-child(904){
+		@include position(29, 31, var(--yellow));
+	}
+	&:nth-child(905){
+		@include position(30, 31, var(--black));
+	}
+	&:nth-child(906){
+		@include position(31, 31, var(--cheek));
+	}
+	&:nth-child(907){
+		@include position(32, 31, var(--cheek));
+	}
+	&:nth-child(908){
+		@include position(33, 31, var(--cheek));
+	}
+	&:nth-child(909){
+		@include position(34, 31, var(--cheek));
+	}
+	&:nth-child(910){
+		@include position(35, 31, var(--cheek));
+	}
+	&:nth-child(911){
+		@include position(36, 31, var(--cheek));
+	}
+	&:nth-child(912){
+		@include position(37, 31, var(--cheek));
+	}
+	&:nth-child(1130){
+		@include position(38, 31, var(--black));
+	}
+	
+	///
+	
+	&:nth-child(913){
+		@include position(6, 32, var(--black));
+	}
+	&:nth-child(914){
+		@include position(7, 32, var(--cheek));
+	}
+	&:nth-child(915){
+		@include position(8, 32, var(--cheek));
+	}
+	&:nth-child(916){
+		@include position(9, 32, var(--cheek));
+	}
+	&:nth-child(917){
+		@include position(10, 32, var(--cheek));
+	}
+	&:nth-child(918){
+		@include position(11, 32, var(--cheek));
+	}
+	&:nth-child(919){
+		@include position(12, 32, var(--cheek));
+	}
+	&:nth-child(920){
+		@include position(13, 32, var(--black));
+	}
+	&:nth-child(921){
+		@include position(14, 32, var(--yellow));
+	}
+	&:nth-child(922){
+		@include position(15, 32, var(--yellow));
+	}
+	&:nth-child(923){
+		@include position(16, 32, var(--yellow));
+	}
+	&:nth-child(924){
+		@include position(17, 32, var(--yellow));
+	}
+	&:nth-child(925){
+		@include position(18, 32, var(--yellow));
+	}
+	&:nth-child(926){
+		@include position(19, 32, var(--black));
+	}
+	&:nth-child(927){
+		@include position(20, 32, var(--tongue));
+	}
+	&:nth-child(928){
+		@include position(20, 32, var(--tongue));
+	}
+	&:nth-child(929){
+		@include position(21, 32, var(--tongue));
+	}
+	&:nth-child(930){
+		@include position(22, 32, var(--tongue));
+	}
+	&:nth-child(931){
+		@include position(23, 32, var(--tongue));
+	}
+	&:nth-child(932){
+		@include position(24, 32, var(--tongue));
+	}
+	&:nth-child(933){
+		@include position(25, 32, var(--black));
+	}
+	&:nth-child(934){
+		@include position(26, 32, var(--yellow));
+	}
+	&:nth-child(935){
+		@include position(27, 32, var(--yellow));
+	}
+	&:nth-child(936){
+		@include position(28, 32, var(--yellow));
+	}
+	&:nth-child(937){
+		@include position(29, 32, var(--yellow));
+	}
+	&:nth-child(938){
+		@include position(30, 32, var(--yellow));
+	}
+	&:nth-child(939){
+		@include position(31, 32, var(--black));
+	}
+	&:nth-child(940){
+		@include position(32, 32, var(--cheek));
+	}
+	&:nth-child(941){
+		@include position(33, 32, var(--cheek));
+	}
+	&:nth-child(942){
+		@include position(34, 32, var(--cheek));
+	}
+	&:nth-child(943){
+		@include position(35, 32, var(--cheek));
+	}
+	&:nth-child(944){
+		@include position(36, 32, var(--cheek));
+	}
+	&:nth-child(945){
+		@include position(37, 32, var(--cheek));
+	}
+	&:nth-child(1131){
+		@include position(38, 32, var(--black));
+	}
+	
+	///
+	
+
+	&:nth-child(947){
+		@include position(7, 33, var(--black));
+	}
+	&:nth-child(948){
+		@include position(8, 33, var(--cheek));
+	}
+	&:nth-child(949){
+		@include position(9, 33, var(--cheek));
+	}
+	&:nth-child(950){
+		@include position(10, 33, var(--cheek));
+	}
+	&:nth-child(951){
+		@include position(11, 33, var(--cheek));
+	}
+	&:nth-child(952){
+		@include position(12, 33, var(--cheek));
+	}
+	&:nth-child(953){
+		@include position(13, 33, var(--black));
+	}
+	&:nth-child(954){
+		@include position(14, 33, var(--yellow));
+	}
+	&:nth-child(955){
+		@include position(15, 33, var(--yellow));
+	}
+	&:nth-child(956){
+		@include position(16, 33, var(--yellow));
+	}
+	&:nth-child(957){
+		@include position(17, 33, var(--yellow));
+	}
+	&:nth-child(958){
+		@include position(18, 33, var(--yellow));
+	}
+	&:nth-child(959){
+		@include position(19, 33, var(--black));
+	}
+	&:nth-child(960){
+		@include position(20, 33, var(--tongue));
+	}
+	&:nth-child(961){
+		@include position(20, 33, var(--tongue));
+	}
+	&:nth-child(962){
+		@include position(21, 33, var(--tongue));
+	}
+	&:nth-child(963){
+		@include position(22, 33, var(--tongue));
+	}
+	&:nth-child(964){
+		@include position(23, 33, var(--tongue));
+	}
+	&:nth-child(965){
+		@include position(24, 33, var(--tongue));
+	}
+	&:nth-child(966){
+		@include position(25, 33, var(--black));
+	}
+	&:nth-child(967){
+		@include position(26, 33, var(--yellow));
+	}
+	&:nth-child(968){
+		@include position(27, 33, var(--yellow));
+	}
+	&:nth-child(969){
+		@include position(28, 33, var(--yellow));
+	}
+	&:nth-child(970){
+		@include position(29, 33, var(--yellow));
+	}
+	&:nth-child(971){
+		@include position(30, 33, var(--yellow));
+	}
+	&:nth-child(972){
+		@include position(31, 33, var(--black));
+	}
+	&:nth-child(973){
+		@include position(32, 33, var(--cheek));
+	}
+	&:nth-child(974){
+		@include position(33, 33, var(--cheek));
+	}
+	&:nth-child(975){
+		@include position(34, 33, var(--cheek));
+	}
+	&:nth-child(976){
+		@include position(35, 33, var(--cheek));
+	}
+	&:nth-child(977){
+		@include position(36, 33, var(--cheek));
+	}
+	&:nth-child(978){
+		@include position(37, 33, var(--black));
+	}
+	
+	///
+	
+
+	&:nth-child(979){
+		@include position(8, 34, var(--black));
+	}
+	&:nth-child(980){
+		@include position(9, 34, var(--black));
+	}
+	&:nth-child(981){
+		@include position(10, 34, var(--black));
+	}
+	&:nth-child(982){
+		@include position(11, 34, var(--black));
+	}
+	&:nth-child(983){
+		@include position(12, 34, var(--black));
+	}
+	&:nth-child(984){
+		@include position(13, 34, var(--yellow));
+	}
+	&:nth-child(985){
+		@include position(14, 34, var(--yellow));
+	}
+	&:nth-child(986){
+		@include position(15, 34, var(--yellow));
+	}
+	&:nth-child(987){
+		@include position(16, 34, var(--yellow));
+	}
+	&:nth-child(988){
+		@include position(17, 34, var(--yellow));
+	}
+	&:nth-child(999){
+		@include position(18, 34, var(--yellow));
+	}
+	&:nth-child(1000){
+		@include position(19, 34, var(--yellow));
+	}
+	&:nth-child(1001){
+		@include position(20, 34, var(--yellow));
+	}
+	&:nth-child(1002){
+		@include position(20, 34, var(--black));
+	}
+	&:nth-child(1003){
+		@include position(21, 34, var(--tongue));
+	}
+	&:nth-child(1004){
+		@include position(22, 34, var(--tongue));
+	}
+	&:nth-child(1005){
+		@include position(23, 34, var(--tongue));
+	}
+	&:nth-child(1006){
+		@include position(24, 34, var(--black));
+	}
+	&:nth-child(1007){
+		@include position(25, 34, var(--yellow));
+	}
+	&:nth-child(1008){
+		@include position(26, 34, var(--yellow));
+	}
+	&:nth-child(1009){
+		@include position(27, 34, var(--yellow));
+	}
+	&:nth-child(1010){
+		@include position(28, 34, var(--yellow));
+	}
+	&:nth-child(1011){
+		@include position(29, 34, var(--yellow));
+	}
+	&:nth-child(1012){
+		@include position(30, 34, var(--yellow));
+	}
+	&:nth-child(1013){
+		@include position(31, 34, var(--yellow));
+	}
+	&:nth-child(1014){
+		@include position(32, 34, var(--black));
+	}
+	&:nth-child(1015){
+		@include position(33, 34, var(--black));
+	}
+	&:nth-child(1016){
+		@include position(34, 34, var(--black));
+	}
+	&:nth-child(1017){
+		@include position(35, 34, var(--black));
+	}
+	&:nth-child(1018){
+		@include position(36, 34, var(--black));
+	}
+	
+	////
+
+	
+	&:nth-child(1019){
+		@include position(9, 35, var(--black));
+	}
+	&:nth-child(1020){
+		@include position(10, 35, var(--yellow-shadow));
+	}
+	&:nth-child(1021){
+		@include position(11, 35, var(--yellow-shadow));
+	}
+	&:nth-child(1022){
+		@include position(12, 35, var(--yellow-shadow));
+	}
+	&:nth-child(1023){
+		@include position(13, 35, var(--yellow));
+	}
+	&:nth-child(1024){
+		@include position(14, 35, var(--yellow));
+	}
+	&:nth-child(1025){
+		@include position(15, 35, var(--yellow));
+	}
+	&:nth-child(1026){
+		@include position(16, 35, var(--yellow));
+	}
+	&:nth-child(1027){
+		@include position(17, 35, var(--yellow));
+	}
+	&:nth-child(1028){
+		@include position(18, 35, var(--yellow));
+	}
+	&:nth-child(1029){
+		@include position(19, 35, var(--yellow));
+	}
+	&:nth-child(1030){
+		@include position(20, 35, var(--yellow));
+	}
+	&:nth-child(1031){
+		@include position(20, 35, var(--yellow));
+	}
+	&:nth-child(1032){
+		@include position(21, 35, var(--black));
+	}
+	&:nth-child(1033){
+		@include position(22, 35, var(--tongue));
+	}
+	&:nth-child(1034){
+		@include position(23, 35, var(--black));
+	}
+	&:nth-child(1035){
+		@include position(24, 35, var(--yellow));
+	}
+	&:nth-child(1036){
+		@include position(25, 35, var(--yellow));
+	}
+	&:nth-child(1037){
+		@include position(26, 35, var(--yellow));
+	}
+	&:nth-child(1038){
+		@include position(27, 35, var(--yellow));
+	}
+	&:nth-child(1039){
+		@include position(28, 35, var(--yellow));
+	}
+	&:nth-child(1040){
+		@include position(29, 35, var(--yellow));
+	}
+	&:nth-child(1041){
+		@include position(30, 35, var(--yellow));
+	}
+	&:nth-child(1042){
+		@include position(31, 35, var(--yellow));
+	}
+	&:nth-child(1043){
+		@include position(32, 35, var(--yellow-shadow));
+	}
+	&:nth-child(1044){
+		@include position(33, 35, var(--yellow-shadow));
+	}
+	&:nth-child(1045){
+		@include position(34, 35, var(--yellow-shadow));
+	}
+	&:nth-child(1046){
+		@include position(35, 35, var(--black));
+	}
+	
+	///
+	
+
+	&:nth-child(1047){
+		@include position(10, 36, var(--black));
+	}
+	&:nth-child(1048){
+		@include position(11, 36, var(--black));
+	}
+	&:nth-child(1049){
+		@include position(12, 36, var(--yellow-shadow));
+	}
+	&:nth-child(1050){
+		@include position(13, 36, var(--yellow-shadow));
+	}
+	&:nth-child(1051){
+		@include position(14, 36, var(--yellow-shadow));
+	}
+	&:nth-child(1052){
+		@include position(15, 36, var(--yellow));
+	}
+	&:nth-child(1053){
+		@include position(16, 36, var(--yellow));
+	}
+	&:nth-child(1054){
+		@include position(17, 36, var(--yellow));
+	}
+	&:nth-child(1055){
+		@include position(18, 36, var(--yellow));
+	}
+	&:nth-child(1056){
+		@include position(19, 36, var(--yellow));
+	}
+	&:nth-child(1057){
+		@include position(20, 36, var(--yellow));
+	}
+	&:nth-child(1058){
+		@include position(20, 36, var(--yellow));
+	}
+	&:nth-child(1059){
+		@include position(21, 36, var(--yellow));
+	}
+	&:nth-child(1060){
+		@include position(22, 36, var(--black));
+	}
+	&:nth-child(1061){
+		@include position(23, 36, var(--yellow));
+	}
+	&:nth-child(1062){
+		@include position(24, 36, var(--yellow));
+	}
+	&:nth-child(1063){
+		@include position(25, 36, var(--yellow));
+	}
+	&:nth-child(1064){
+		@include position(26, 36, var(--yellow));
+	}
+	&:nth-child(1065){
+		@include position(27, 36, var(--yellow));
+	}
+	&:nth-child(1066){
+		@include position(28, 36, var(--yellow));
+	}
+	&:nth-child(1067){
+		@include position(29, 36, var(--yellow));
+	}
+	&:nth-child(1068){
+		@include position(30, 36, var(--yellow-shadow));
+	}
+	&:nth-child(1069){
+		@include position(31, 36, var(--yellow-shadow));
+	}
+	&:nth-child(1070){
+		@include position(32, 36, var(--yellow-shadow));
+	}
+	&:nth-child(1071){
+		@include position(33, 36, var(--black));
+	}
+	&:nth-child(1072){
+		@include position(34, 36, var(--black));
+	}
+	
+	///
+
+
+	&:nth-child(1073){
+		@include position(12, 37, var(--black));
+	}
+	&:nth-child(1074){
+		@include position(13, 37, var(--black));
+	}
+	&:nth-child(1075){
+		@include position(14, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1076){
+		@include position(15, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1077){
+		@include position(16, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1078){
+		@include position(17, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1079){
+		@include position(18, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1080){
+		@include position(19, 37, var(--yellow));
+	}
+	&:nth-child(1081){
+		@include position(20, 37, var(--yellow));
+	}
+	&:nth-child(1082){
+		@include position(20, 37, var(--yellow));
+	}
+	&:nth-child(1083){
+		@include position(21, 37, var(--yellow));
+	}
+	&:nth-child(1084){
+		@include position(22, 37, var(--yellow));
+	}
+	&:nth-child(1085){
+		@include position(23, 37, var(--yellow));
+	}
+	&:nth-child(1086){
+		@include position(24, 37, var(--yellow));
+	}
+	&:nth-child(1087){
+		@include position(25, 37, var(--yellow));
+	}
+	&:nth-child(1088){
+		@include position(26, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1089){
+		@include position(27, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1090){
+		@include position(28, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1091){
+		@include position(29, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1092){
+		@include position(30, 37, var(--yellow-shadow));
+	}
+	&:nth-child(1093){
+		@include position(31, 37, var(--black));
+	}
+	&:nth-child(1094){
+		@include position(32, 37, var(--black));
+	}
+	
+	
+	///
+	
+
+	&:nth-child(1095){
+		@include position(14, 38, var(--black));
+	}
+	&:nth-child(1096){
+		@include position(15, 38, var(--black));
+	}
+	&:nth-child(1097){
+		@include position(16, 38, var(--black));
+	}
+	&:nth-child(1098){
+		@include position(17, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1099){
+		@include position(18, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1100){
+		@include position(19, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1101){
+		@include position(20, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1102){
+		@include position(20, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1103){
+		@include position(21, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1104){
+		@include position(22, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1105){
+		@include position(23, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1106){
+		@include position(24, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1107){
+		@include position(25, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1108){
+		@include position(26, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1109){
+		@include position(27, 38, var(--yellow-shadow));
+	}
+	&:nth-child(1110){
+		@include position(28, 38, var(--black));
+	}
+	&:nth-child(1111){
+		@include position(29, 38, var(--black));
+	}
+	&:nth-child(1112){
+		@include position(30, 38, var(--black));
+	}
+	
+	///
+	
+	
+	&:nth-child(1113){
+		@include position(17, 39, var(--black));
+	}
+	&:nth-child(1114){
+		@include position(18, 39, var(--black));
+	}
+	&:nth-child(1115){
+		@include position(19, 39, var(--black));
+	}
+	&:nth-child(1116){
+		@include position(20, 39, var(--black));
+	}
+	&:nth-child(1117){
+		@include position(20, 39, var(--black));
+	}
+	&:nth-child(1118){
+		@include position(21, 39, var(--black));
+	}
+	&:nth-child(1119){
+		@include position(22, 39, var(--black));
+	}
+	&:nth-child(1120){
+		@include position(23, 39, var(--black));
+	}
+	&:nth-child(1121){
+		@include position(24, 39, var(--black));
+	}
+	&:nth-child(1122){
+		@include position(25, 39, var(--black));
+	}
+	&:nth-child(1123){
+		@include position(26, 39, var(--black));
+	}
+	&:nth-child(1124){
+		@include position(27, 39, var(--black));
+	}
+	
 	
 }

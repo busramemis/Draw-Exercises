@@ -1,6 +1,7 @@
 :root {
   --black: #000;
   --yellow: #f9d904;
+  --yellow-shadow: #e1b424;
   --eyelid: #d5d5d5;
   --cheek: #ea1c36;
   --tongue:#ef839a;
@@ -29,5 +30,5570 @@ body {
 .pikachu {
   width: 1.5rem;
   height: 1.5rem;
-  border: 1px solid var(--black);
+  border: 1px solid #747474;
+}
+.pikachu:nth-child(1) {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(2) {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(3) {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(4) {
+  grid-column: 5;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(5) {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(6) {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(7) {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(8) {
+  grid-column: 5;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(9) {
+  grid-column: 6;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(10) {
+  grid-column: 7;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(11) {
+  grid-column: 8;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(12) {
+  grid-column: 2;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(13) {
+  grid-column: 3;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(14) {
+  grid-column: 4;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(15) {
+  grid-column: 5;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(16) {
+  grid-column: 6;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(17) {
+  grid-column: 7;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(18) {
+  grid-column: 8;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(19) {
+  grid-column: 9;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(20) {
+  grid-column: 10;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(21) {
+  grid-column: 42;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(22) {
+  grid-column: 41;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(23) {
+  grid-column: 40;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(24) {
+  grid-column: 39;
+  grid-row: 2;
+  background-color: var(--black);
+}
+.pikachu:nth-child(25) {
+  grid-column: 42;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(26) {
+  grid-column: 41;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(27) {
+  grid-column: 40;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(28) {
+  grid-column: 39;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(29) {
+  grid-column: 38;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(30) {
+  grid-column: 37;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(31) {
+  grid-column: 36;
+  grid-row: 3;
+  background-color: var(--black);
+}
+.pikachu:nth-child(32) {
+  grid-column: 42;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(33) {
+  grid-column: 41;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(34) {
+  grid-column: 40;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(35) {
+  grid-column: 39;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(36) {
+  grid-column: 38;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(37) {
+  grid-column: 37;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(38) {
+  grid-column: 36;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(39) {
+  grid-column: 35;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(40) {
+  grid-column: 34;
+  grid-row: 4;
+  background-color: var(--black);
+}
+.pikachu:nth-child(41) {
+  grid-column: 2;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(42) {
+  grid-column: 3;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(43) {
+  grid-column: 4;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(44) {
+  grid-column: 5;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(45) {
+  grid-column: 6;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(46) {
+  grid-column: 7;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(47) {
+  grid-column: 8;
+  grid-row: 5;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(48) {
+  grid-column: 9;
+  grid-row: 5;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(49) {
+  grid-column: 10;
+  grid-row: 5;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(50) {
+  grid-column: 11;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(51) {
+  grid-column: 2;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(52) {
+  grid-column: 3;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(53) {
+  grid-column: 4;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(54) {
+  grid-column: 5;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(55) {
+  grid-column: 6;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(56) {
+  grid-column: 7;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(57) {
+  grid-column: 8;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(58) {
+  grid-column: 9;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(59) {
+  grid-column: 10;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(60) {
+  grid-column: 11;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(61) {
+  grid-column: 12;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(62) {
+  grid-column: 2;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(63) {
+  grid-column: 3;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(64) {
+  grid-column: 4;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(65) {
+  grid-column: 5;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(66) {
+  grid-column: 6;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(67) {
+  grid-column: 7;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(68) {
+  grid-column: 8;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(69) {
+  grid-column: 9;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(70) {
+  grid-column: 10;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(71) {
+  grid-column: 11;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(72) {
+  grid-column: 12;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(73) {
+  grid-column: 13;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(74) {
+  grid-column: 42;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(75) {
+  grid-column: 41;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(76) {
+  grid-column: 40;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(77) {
+  grid-column: 39;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(78) {
+  grid-column: 38;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(79) {
+  grid-column: 37;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(80) {
+  grid-column: 36;
+  grid-row: 5;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(81) {
+  grid-column: 35;
+  grid-row: 5;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(82) {
+  grid-column: 34;
+  grid-row: 5;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(83) {
+  grid-column: 33;
+  grid-row: 5;
+  background-color: var(--black);
+}
+.pikachu:nth-child(84) {
+  grid-column: 42;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(85) {
+  grid-column: 41;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(86) {
+  grid-column: 40;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(87) {
+  grid-column: 39;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(88) {
+  grid-column: 38;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(89) {
+  grid-column: 37;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(90) {
+  grid-column: 36;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(91) {
+  grid-column: 35;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(92) {
+  grid-column: 34;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(93) {
+  grid-column: 33;
+  grid-row: 6;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(94) {
+  grid-column: 32;
+  grid-row: 6;
+  background-color: var(--black);
+}
+.pikachu:nth-child(95) {
+  grid-column: 42;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(96) {
+  grid-column: 41;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(97) {
+  grid-column: 40;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(98) {
+  grid-column: 39;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(99) {
+  grid-column: 38;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(100) {
+  grid-column: 37;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(101) {
+  grid-column: 36;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(102) {
+  grid-column: 35;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(103) {
+  grid-column: 34;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(104) {
+  grid-column: 33;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(105) {
+  grid-column: 32;
+  grid-row: 7;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(106) {
+  grid-column: 31;
+  grid-row: 7;
+  background-color: var(--black);
+}
+.pikachu:nth-child(108) {
+  grid-column: 3;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(109) {
+  grid-column: 4;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(110) {
+  grid-column: 5;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(111) {
+  grid-column: 6;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(112) {
+  grid-column: 7;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(113) {
+  grid-column: 8;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(114) {
+  grid-column: 9;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(115) {
+  grid-column: 10;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(116) {
+  grid-column: 11;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(117) {
+  grid-column: 12;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(118) {
+  grid-column: 13;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(119) {
+  grid-column: 14;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(120) {
+  grid-column: 17;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(121) {
+  grid-column: 18;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(122) {
+  grid-column: 19;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(123) {
+  grid-column: 20;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(124) {
+  grid-column: 21;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(125) {
+  grid-column: 22;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(126) {
+  grid-column: 23;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(127) {
+  grid-column: 24;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(128) {
+  grid-column: 25;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(129) {
+  grid-column: 26;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(130) {
+  grid-column: 27;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(131) {
+  grid-column: 30;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(132) {
+  grid-column: 31;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(133) {
+  grid-column: 32;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(134) {
+  grid-column: 33;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(135) {
+  grid-column: 34;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(136) {
+  grid-column: 35;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(137) {
+  grid-column: 36;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(138) {
+  grid-column: 37;
+  grid-row: 8;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(139) {
+  grid-column: 38;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(140) {
+  grid-column: 39;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(141) {
+  grid-column: 40;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(142) {
+  grid-column: 41;
+  grid-row: 8;
+  background-color: var(--black);
+}
+.pikachu:nth-child(143) {
+  grid-column: 3;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(144) {
+  grid-column: 4;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(145) {
+  grid-column: 5;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(146) {
+  grid-column: 6;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(147) {
+  grid-column: 7;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(148) {
+  grid-column: 8;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(149) {
+  grid-column: 9;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(150) {
+  grid-column: 10;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(151) {
+  grid-column: 11;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(152) {
+  grid-column: 12;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(153) {
+  grid-column: 13;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(157) {
+  grid-column: 14;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(158) {
+  grid-column: 15;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(159) {
+  grid-column: 16;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(160) {
+  grid-column: 17;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(161) {
+  grid-column: 18;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(162) {
+  grid-column: 19;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(163) {
+  grid-column: 20;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(164) {
+  grid-column: 20;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(165) {
+  grid-column: 21;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(166) {
+  grid-column: 22;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(167) {
+  grid-column: 23;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(168) {
+  grid-column: 24;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(169) {
+  grid-column: 25;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(170) {
+  grid-column: 26;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(171) {
+  grid-column: 27;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(172) {
+  grid-column: 28;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(173) {
+  grid-column: 29;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(174) {
+  grid-column: 30;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(175) {
+  grid-column: 31;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(176) {
+  grid-column: 32;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(177) {
+  grid-column: 33;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(178) {
+  grid-column: 34;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(179) {
+  grid-column: 35;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(180) {
+  grid-column: 36;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(181) {
+  grid-column: 37;
+  grid-row: 9;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(182) {
+  grid-column: 38;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(183) {
+  grid-column: 39;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(184) {
+  grid-column: 40;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(185) {
+  grid-column: 41;
+  grid-row: 9;
+  background-color: var(--black);
+}
+.pikachu:nth-child(186) {
+  grid-column: 4;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(187) {
+  grid-column: 5;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(188) {
+  grid-column: 6;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(189) {
+  grid-column: 7;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(190) {
+  grid-column: 8;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(191) {
+  grid-column: 9;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(192) {
+  grid-column: 10;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(193) {
+  grid-column: 11;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(194) {
+  grid-column: 12;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(195) {
+  grid-column: 13;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(196) {
+  grid-column: 14;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(197) {
+  grid-column: 15;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(198) {
+  grid-column: 16;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(199) {
+  grid-column: 17;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(200) {
+  grid-column: 18;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(201) {
+  grid-column: 19;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(202) {
+  grid-column: 20;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(203) {
+  grid-column: 20;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(204) {
+  grid-column: 21;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(205) {
+  grid-column: 22;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(206) {
+  grid-column: 23;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(207) {
+  grid-column: 24;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(208) {
+  grid-column: 25;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(209) {
+  grid-column: 26;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(210) {
+  grid-column: 27;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(211) {
+  grid-column: 28;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(212) {
+  grid-column: 29;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(213) {
+  grid-column: 30;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(214) {
+  grid-column: 31;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(215) {
+  grid-column: 32;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(216) {
+  grid-column: 33;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(217) {
+  grid-column: 34;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(218) {
+  grid-column: 35;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(219) {
+  grid-column: 36;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(220) {
+  grid-column: 37;
+  grid-row: 10;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(221) {
+  grid-column: 38;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(222) {
+  grid-column: 39;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(223) {
+  grid-column: 40;
+  grid-row: 10;
+  background-color: var(--black);
+}
+.pikachu:nth-child(224) {
+  grid-column: 4;
+  grid-row: 11;
+  background-color: var(--black);
+}
+.pikachu:nth-child(225) {
+  grid-column: 5;
+  grid-row: 11;
+  background-color: var(--black);
+}
+.pikachu:nth-child(226) {
+  grid-column: 6;
+  grid-row: 11;
+  background-color: var(--black);
+}
+.pikachu:nth-child(227) {
+  grid-column: 7;
+  grid-row: 11;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(228) {
+  grid-column: 8;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(229) {
+  grid-column: 9;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(230) {
+  grid-column: 10;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(231) {
+  grid-column: 11;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(232) {
+  grid-column: 12;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(233) {
+  grid-column: 13;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(234) {
+  grid-column: 14;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(235) {
+  grid-column: 15;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(236) {
+  grid-column: 16;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(237) {
+  grid-column: 17;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(238) {
+  grid-column: 18;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(239) {
+  grid-column: 19;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(240) {
+  grid-column: 20;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(241) {
+  grid-column: 20;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(242) {
+  grid-column: 21;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(243) {
+  grid-column: 22;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(244) {
+  grid-column: 23;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(245) {
+  grid-column: 24;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(246) {
+  grid-column: 25;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(247) {
+  grid-column: 26;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(248) {
+  grid-column: 27;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(249) {
+  grid-column: 28;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(250) {
+  grid-column: 29;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(251) {
+  grid-column: 30;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(252) {
+  grid-column: 31;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(253) {
+  grid-column: 32;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(254) {
+  grid-column: 33;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(255) {
+  grid-column: 34;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(256) {
+  grid-column: 35;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(257) {
+  grid-column: 36;
+  grid-row: 11;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(258) {
+  grid-column: 37;
+  grid-row: 11;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(259) {
+  grid-column: 38;
+  grid-row: 11;
+  background-color: var(--black);
+}
+.pikachu:nth-child(260) {
+  grid-column: 39;
+  grid-row: 11;
+  background-color: var(--black);
+}
+.pikachu:nth-child(261) {
+  grid-column: 40;
+  grid-row: 11;
+  background-color: var(--black);
+}
+.pikachu:nth-child(262) {
+  grid-column: 5;
+  grid-row: 12;
+  background-color: var(--black);
+}
+.pikachu:nth-child(263) {
+  grid-column: 6;
+  grid-row: 12;
+  background-color: var(--black);
+}
+.pikachu:nth-child(264) {
+  grid-column: 7;
+  grid-row: 12;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(265) {
+  grid-column: 8;
+  grid-row: 12;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(266) {
+  grid-column: 9;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(267) {
+  grid-column: 10;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(268) {
+  grid-column: 11;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(269) {
+  grid-column: 12;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(270) {
+  grid-column: 13;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(271) {
+  grid-column: 14;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(272) {
+  grid-column: 15;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(273) {
+  grid-column: 16;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(274) {
+  grid-column: 17;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(275) {
+  grid-column: 18;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(276) {
+  grid-column: 19;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(277) {
+  grid-column: 20;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(278) {
+  grid-column: 20;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(279) {
+  grid-column: 21;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(280) {
+  grid-column: 22;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(281) {
+  grid-column: 23;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(282) {
+  grid-column: 24;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(283) {
+  grid-column: 25;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(284) {
+  grid-column: 26;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(285) {
+  grid-column: 27;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(286) {
+  grid-column: 28;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(287) {
+  grid-column: 29;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(288) {
+  grid-column: 30;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(289) {
+  grid-column: 31;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(290) {
+  grid-column: 32;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(291) {
+  grid-column: 33;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(292) {
+  grid-column: 34;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(293) {
+  grid-column: 35;
+  grid-row: 12;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(294) {
+  grid-column: 36;
+  grid-row: 12;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(295) {
+  grid-column: 37;
+  grid-row: 12;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(296) {
+  grid-column: 38;
+  grid-row: 12;
+  background-color: var(--black);
+}
+.pikachu:nth-child(297) {
+  grid-column: 39;
+  grid-row: 12;
+  background-color: var(--black);
+}
+.pikachu:nth-child(298) {
+  grid-column: 6;
+  grid-row: 13;
+  background-color: var(--black);
+}
+.pikachu:nth-child(299) {
+  grid-column: 7;
+  grid-row: 13;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(300) {
+  grid-column: 8;
+  grid-row: 13;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(301) {
+  grid-column: 9;
+  grid-row: 13;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(302) {
+  grid-column: 10;
+  grid-row: 13;
+  background-color: var(--black);
+}
+.pikachu:nth-child(303) {
+  grid-column: 11;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(304) {
+  grid-column: 12;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(305) {
+  grid-column: 13;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(306) {
+  grid-column: 14;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(307) {
+  grid-column: 15;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(308) {
+  grid-column: 16;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(309) {
+  grid-column: 17;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(310) {
+  grid-column: 18;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(311) {
+  grid-column: 19;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(312) {
+  grid-column: 20;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(313) {
+  grid-column: 20;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(314) {
+  grid-column: 21;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(315) {
+  grid-column: 22;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(316) {
+  grid-column: 23;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(317) {
+  grid-column: 24;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(318) {
+  grid-column: 25;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(319) {
+  grid-column: 26;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(320) {
+  grid-column: 27;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(321) {
+  grid-column: 28;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(322) {
+  grid-column: 29;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(323) {
+  grid-column: 30;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(324) {
+  grid-column: 31;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(325) {
+  grid-column: 32;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(326) {
+  grid-column: 33;
+  grid-row: 13;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(327) {
+  grid-column: 34;
+  grid-row: 13;
+  background-color: var(--black);
+}
+.pikachu:nth-child(328) {
+  grid-column: 35;
+  grid-row: 13;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(329) {
+  grid-column: 36;
+  grid-row: 13;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(330) {
+  grid-column: 37;
+  grid-row: 13;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(331) {
+  grid-column: 38;
+  grid-row: 13;
+  background-color: var(--black);
+}
+.pikachu:nth-child(332) {
+  grid-column: 7;
+  grid-row: 14;
+  background-color: var(--black);
+}
+.pikachu:nth-child(333) {
+  grid-column: 8;
+  grid-row: 14;
+  background-color: var(--black);
+}
+.pikachu:nth-child(334) {
+  grid-column: 9;
+  grid-row: 14;
+  background-color: var(--black);
+}
+.pikachu:nth-child(335) {
+  grid-column: 10;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(336) {
+  grid-column: 11;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(337) {
+  grid-column: 12;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(338) {
+  grid-column: 13;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(339) {
+  grid-column: 14;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(340) {
+  grid-column: 15;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(341) {
+  grid-column: 16;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(342) {
+  grid-column: 17;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(343) {
+  grid-column: 18;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(344) {
+  grid-column: 19;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(345) {
+  grid-column: 20;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(346) {
+  grid-column: 20;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(347) {
+  grid-column: 21;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(348) {
+  grid-column: 22;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(349) {
+  grid-column: 23;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(350) {
+  grid-column: 24;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(351) {
+  grid-column: 25;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(352) {
+  grid-column: 26;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(353) {
+  grid-column: 27;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(354) {
+  grid-column: 28;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(355) {
+  grid-column: 29;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(356) {
+  grid-column: 30;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(357) {
+  grid-column: 31;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(358) {
+  grid-column: 32;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(359) {
+  grid-column: 33;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(360) {
+  grid-column: 34;
+  grid-row: 14;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(361) {
+  grid-column: 35;
+  grid-row: 14;
+  background-color: var(--black);
+}
+.pikachu:nth-child(362) {
+  grid-column: 36;
+  grid-row: 14;
+  background-color: var(--black);
+}
+.pikachu:nth-child(363) {
+  grid-column: 37;
+  grid-row: 14;
+  background-color: var(--black);
+}
+.pikachu:nth-child(366) {
+  grid-column: 8;
+  grid-row: 15;
+  background-color: var(--black);
+}
+.pikachu:nth-child(367) {
+  grid-column: 9;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(368) {
+  grid-column: 10;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(369) {
+  grid-column: 11;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(370) {
+  grid-column: 12;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(371) {
+  grid-column: 13;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(372) {
+  grid-column: 14;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(373) {
+  grid-column: 15;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(374) {
+  grid-column: 16;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(375) {
+  grid-column: 17;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(376) {
+  grid-column: 18;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(377) {
+  grid-column: 19;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(378) {
+  grid-column: 20;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(379) {
+  grid-column: 20;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(380) {
+  grid-column: 21;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(381) {
+  grid-column: 22;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(382) {
+  grid-column: 23;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(383) {
+  grid-column: 24;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(384) {
+  grid-column: 25;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(385) {
+  grid-column: 26;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(386) {
+  grid-column: 27;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(387) {
+  grid-column: 28;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(388) {
+  grid-column: 29;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(389) {
+  grid-column: 30;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(390) {
+  grid-column: 31;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(391) {
+  grid-column: 32;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(392) {
+  grid-column: 33;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(393) {
+  grid-column: 34;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(394) {
+  grid-column: 35;
+  grid-row: 15;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(395) {
+  grid-column: 36;
+  grid-row: 15;
+  background-color: var(--black);
+}
+.pikachu:nth-child(396) {
+  grid-column: 8;
+  grid-row: 16;
+  background-color: var(--black);
+}
+.pikachu:nth-child(397) {
+  grid-column: 9;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(398) {
+  grid-column: 10;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(399) {
+  grid-column: 11;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(400) {
+  grid-column: 12;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(401) {
+  grid-column: 13;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(402) {
+  grid-column: 14;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(403) {
+  grid-column: 15;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(404) {
+  grid-column: 16;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(405) {
+  grid-column: 17;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(406) {
+  grid-column: 18;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(407) {
+  grid-column: 19;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(408) {
+  grid-column: 20;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(409) {
+  grid-column: 20;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(410) {
+  grid-column: 21;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(411) {
+  grid-column: 22;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(412) {
+  grid-column: 23;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(413) {
+  grid-column: 24;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(414) {
+  grid-column: 25;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(415) {
+  grid-column: 26;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(416) {
+  grid-column: 27;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(417) {
+  grid-column: 28;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(418) {
+  grid-column: 29;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(419) {
+  grid-column: 30;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(420) {
+  grid-column: 31;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(421) {
+  grid-column: 32;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(422) {
+  grid-column: 33;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(423) {
+  grid-column: 34;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(424) {
+  grid-column: 35;
+  grid-row: 16;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(425) {
+  grid-column: 36;
+  grid-row: 16;
+  background-color: var(--black);
+}
+.pikachu:nth-child(426) {
+  grid-column: 7;
+  grid-row: 17;
+  background-color: var(--black);
+}
+.pikachu:nth-child(427) {
+  grid-column: 8;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(428) {
+  grid-column: 9;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(429) {
+  grid-column: 10;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(430) {
+  grid-column: 11;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(431) {
+  grid-column: 12;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(432) {
+  grid-column: 13;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(433) {
+  grid-column: 14;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(434) {
+  grid-column: 15;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(435) {
+  grid-column: 16;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(436) {
+  grid-column: 17;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(437) {
+  grid-column: 18;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(438) {
+  grid-column: 19;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(439) {
+  grid-column: 20;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(440) {
+  grid-column: 20;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(441) {
+  grid-column: 21;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(442) {
+  grid-column: 22;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(443) {
+  grid-column: 23;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(444) {
+  grid-column: 24;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(445) {
+  grid-column: 25;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(446) {
+  grid-column: 26;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(447) {
+  grid-column: 27;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(448) {
+  grid-column: 28;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(449) {
+  grid-column: 29;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(450) {
+  grid-column: 30;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(451) {
+  grid-column: 31;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(452) {
+  grid-column: 32;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(453) {
+  grid-column: 33;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(454) {
+  grid-column: 34;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(455) {
+  grid-column: 35;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(456) {
+  grid-column: 36;
+  grid-row: 17;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(457) {
+  grid-column: 37;
+  grid-row: 17;
+  background-color: var(--black);
+}
+.pikachu:nth-child(458) {
+  grid-column: 7;
+  grid-row: 18;
+  background-color: var(--black);
+}
+.pikachu:nth-child(459) {
+  grid-column: 8;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(460) {
+  grid-column: 9;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(461) {
+  grid-column: 10;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(462) {
+  grid-column: 11;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(463) {
+  grid-column: 12;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(464) {
+  grid-column: 13;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(465) {
+  grid-column: 14;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(466) {
+  grid-column: 15;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(467) {
+  grid-column: 16;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(468) {
+  grid-column: 17;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(469) {
+  grid-column: 18;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(470) {
+  grid-column: 19;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(471) {
+  grid-column: 20;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(472) {
+  grid-column: 20;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(473) {
+  grid-column: 21;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(474) {
+  grid-column: 22;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(475) {
+  grid-column: 23;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(476) {
+  grid-column: 24;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(477) {
+  grid-column: 25;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(478) {
+  grid-column: 26;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(479) {
+  grid-column: 27;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(480) {
+  grid-column: 28;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(481) {
+  grid-column: 29;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(482) {
+  grid-column: 30;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(483) {
+  grid-column: 31;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(484) {
+  grid-column: 32;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(485) {
+  grid-column: 33;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(486) {
+  grid-column: 34;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(487) {
+  grid-column: 35;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(489) {
+  grid-column: 36;
+  grid-row: 18;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(490) {
+  grid-column: 37;
+  grid-row: 18;
+  background-color: var(--black);
+}
+.pikachu:nth-child(491) {
+  grid-column: 7;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(492) {
+  grid-column: 8;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(493) {
+  grid-column: 9;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(494) {
+  grid-column: 10;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(495) {
+  grid-column: 11;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(496) {
+  grid-column: 12;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(497) {
+  grid-column: 13;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(498) {
+  grid-column: 14;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(499) {
+  grid-column: 15;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(500) {
+  grid-column: 16;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(501) {
+  grid-column: 17;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(502) {
+  grid-column: 18;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(503) {
+  grid-column: 19;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(504) {
+  grid-column: 20;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(505) {
+  grid-column: 20;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(506) {
+  grid-column: 21;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(507) {
+  grid-column: 22;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(508) {
+  grid-column: 23;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(509) {
+  grid-column: 24;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(510) {
+  grid-column: 25;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(511) {
+  grid-column: 26;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(512) {
+  grid-column: 27;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(513) {
+  grid-column: 28;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(514) {
+  grid-column: 29;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(515) {
+  grid-column: 30;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(516) {
+  grid-column: 31;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(517) {
+  grid-column: 32;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(518) {
+  grid-column: 33;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(519) {
+  grid-column: 34;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(520) {
+  grid-column: 35;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(521) {
+  grid-column: 36;
+  grid-row: 19;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(522) {
+  grid-column: 37;
+  grid-row: 19;
+  background-color: var(--black);
+}
+.pikachu:nth-child(523) {
+  grid-column: 7;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(524) {
+  grid-column: 8;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(525) {
+  grid-column: 9;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(526) {
+  grid-column: 10;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(527) {
+  grid-column: 11;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(528) {
+  grid-column: 12;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(529) {
+  grid-column: 13;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(530) {
+  grid-column: 14;
+  grid-row: 20;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(531) {
+  grid-column: 15;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(532) {
+  grid-column: 16;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(533) {
+  grid-column: 17;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(534) {
+  grid-column: 18;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(535) {
+  grid-column: 19;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(536) {
+  grid-column: 20;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(537) {
+  grid-column: 20;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(538) {
+  grid-column: 21;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(539) {
+  grid-column: 22;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(540) {
+  grid-column: 23;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(541) {
+  grid-column: 24;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(542) {
+  grid-column: 25;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(543) {
+  grid-column: 26;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(544) {
+  grid-column: 27;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(545) {
+  grid-column: 28;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(546) {
+  grid-column: 29;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(547) {
+  grid-column: 30;
+  grid-row: 20;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(548) {
+  grid-column: 31;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(549) {
+  grid-column: 32;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(550) {
+  grid-column: 33;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(551) {
+  grid-column: 34;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(552) {
+  grid-column: 35;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(553) {
+  grid-column: 36;
+  grid-row: 20;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(554) {
+  grid-column: 37;
+  grid-row: 20;
+  background-color: var(--black);
+}
+.pikachu:nth-child(555) {
+  grid-column: 7;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(556) {
+  grid-column: 8;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(557) {
+  grid-column: 9;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(558) {
+  grid-column: 10;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(559) {
+  grid-column: 11;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(560) {
+  grid-column: 12;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(561) {
+  grid-column: 13;
+  grid-row: 21;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(562) {
+  grid-column: 14;
+  grid-row: 21;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(563) {
+  grid-column: 15;
+  grid-row: 21;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(564) {
+  grid-column: 16;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(565) {
+  grid-column: 17;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(566) {
+  grid-column: 18;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(567) {
+  grid-column: 19;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(568) {
+  grid-column: 20;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(569) {
+  grid-column: 20;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(570) {
+  grid-column: 21;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(571) {
+  grid-column: 22;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(572) {
+  grid-column: 23;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(573) {
+  grid-column: 24;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(574) {
+  grid-column: 25;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(575) {
+  grid-column: 26;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(576) {
+  grid-column: 27;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(577) {
+  grid-column: 28;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(578) {
+  grid-column: 29;
+  grid-row: 21;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(579) {
+  grid-column: 30;
+  grid-row: 21;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(580) {
+  grid-column: 31;
+  grid-row: 21;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(581) {
+  grid-column: 32;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(582) {
+  grid-column: 33;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(583) {
+  grid-column: 34;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(584) {
+  grid-column: 35;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(585) {
+  grid-column: 36;
+  grid-row: 21;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(586) {
+  grid-column: 37;
+  grid-row: 21;
+  background-color: var(--black);
+}
+.pikachu:nth-child(587) {
+  grid-column: 7;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(588) {
+  grid-column: 8;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(589) {
+  grid-column: 9;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(590) {
+  grid-column: 10;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(591) {
+  grid-column: 11;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(592) {
+  grid-column: 12;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(593) {
+  grid-column: 13;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(594) {
+  grid-column: 14;
+  grid-row: 22;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(595) {
+  grid-column: 15;
+  grid-row: 22;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(596) {
+  grid-column: 16;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(597) {
+  grid-column: 17;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(598) {
+  grid-column: 18;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(599) {
+  grid-column: 19;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(600) {
+  grid-column: 20;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(601) {
+  grid-column: 20;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(602) {
+  grid-column: 21;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(603) {
+  grid-column: 22;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(604) {
+  grid-column: 23;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(605) {
+  grid-column: 24;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(606) {
+  grid-column: 25;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(607) {
+  grid-column: 26;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(608) {
+  grid-column: 27;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(609) {
+  grid-column: 28;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(610) {
+  grid-column: 29;
+  grid-row: 22;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(611) {
+  grid-column: 30;
+  grid-row: 22;
+  background-color: var(--eyelid);
+}
+.pikachu:nth-child(612) {
+  grid-column: 31;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(613) {
+  grid-column: 32;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(614) {
+  grid-column: 33;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(615) {
+  grid-column: 34;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(616) {
+  grid-column: 35;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(617) {
+  grid-column: 36;
+  grid-row: 22;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(618) {
+  grid-column: 37;
+  grid-row: 22;
+  background-color: var(--black);
+}
+.pikachu:nth-child(619) {
+  grid-column: 7;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(620) {
+  grid-column: 8;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(621) {
+  grid-column: 9;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(622) {
+  grid-column: 10;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(623) {
+  grid-column: 11;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(624) {
+  grid-column: 12;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(625) {
+  grid-column: 13;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(626) {
+  grid-column: 14;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(627) {
+  grid-column: 15;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(628) {
+  grid-column: 16;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(629) {
+  grid-column: 17;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(630) {
+  grid-column: 18;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(631) {
+  grid-column: 19;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(632) {
+  grid-column: 20;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(633) {
+  grid-column: 20;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(634) {
+  grid-column: 21;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(635) {
+  grid-column: 22;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(636) {
+  grid-column: 23;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(637) {
+  grid-column: 24;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(638) {
+  grid-column: 25;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(639) {
+  grid-column: 26;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(640) {
+  grid-column: 27;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(641) {
+  grid-column: 28;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(642) {
+  grid-column: 29;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(643) {
+  grid-column: 30;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(644) {
+  grid-column: 31;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(645) {
+  grid-column: 32;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(646) {
+  grid-column: 33;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(647) {
+  grid-column: 34;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(648) {
+  grid-column: 35;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(649) {
+  grid-column: 36;
+  grid-row: 23;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(650) {
+  grid-column: 37;
+  grid-row: 23;
+  background-color: var(--black);
+}
+.pikachu:nth-child(651) {
+  grid-column: 7;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(652) {
+  grid-column: 8;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(653) {
+  grid-column: 9;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(654) {
+  grid-column: 10;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(655) {
+  grid-column: 11;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(656) {
+  grid-column: 12;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(657) {
+  grid-column: 13;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(658) {
+  grid-column: 14;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(659) {
+  grid-column: 15;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(660) {
+  grid-column: 16;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(661) {
+  grid-column: 17;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(662) {
+  grid-column: 18;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(663) {
+  grid-column: 19;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(664) {
+  grid-column: 20;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(665) {
+  grid-column: 20;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(666) {
+  grid-column: 21;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(667) {
+  grid-column: 22;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(668) {
+  grid-column: 23;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(669) {
+  grid-column: 24;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(670) {
+  grid-column: 25;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(671) {
+  grid-column: 26;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(672) {
+  grid-column: 27;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(673) {
+  grid-column: 28;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(674) {
+  grid-column: 29;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(675) {
+  grid-column: 30;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(676) {
+  grid-column: 31;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(677) {
+  grid-column: 32;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(678) {
+  grid-column: 33;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(679) {
+  grid-column: 34;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(680) {
+  grid-column: 35;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(681) {
+  grid-column: 36;
+  grid-row: 24;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(682) {
+  grid-column: 37;
+  grid-row: 24;
+  background-color: var(--black);
+}
+.pikachu:nth-child(683) {
+  grid-column: 7;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(684) {
+  grid-column: 8;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(685) {
+  grid-column: 9;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(686) {
+  grid-column: 10;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(687) {
+  grid-column: 11;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(688) {
+  grid-column: 12;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(689) {
+  grid-column: 13;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(690) {
+  grid-column: 14;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(691) {
+  grid-column: 15;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(692) {
+  grid-column: 16;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(693) {
+  grid-column: 17;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(694) {
+  grid-column: 18;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(695) {
+  grid-column: 19;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(696) {
+  grid-column: 20;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(697) {
+  grid-column: 20;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(698) {
+  grid-column: 21;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(699) {
+  grid-column: 22;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(700) {
+  grid-column: 23;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(701) {
+  grid-column: 24;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(702) {
+  grid-column: 25;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(703) {
+  grid-column: 26;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(704) {
+  grid-column: 27;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(705) {
+  grid-column: 28;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(706) {
+  grid-column: 29;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(707) {
+  grid-column: 30;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(708) {
+  grid-column: 31;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(709) {
+  grid-column: 32;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(710) {
+  grid-column: 33;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(711) {
+  grid-column: 34;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(712) {
+  grid-column: 35;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(713) {
+  grid-column: 36;
+  grid-row: 25;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(714) {
+  grid-column: 37;
+  grid-row: 25;
+  background-color: var(--black);
+}
+.pikachu:nth-child(715) {
+  grid-column: 6;
+  grid-row: 26;
+  background-color: var(--black);
+}
+.pikachu:nth-child(716) {
+  grid-column: 7;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(717) {
+  grid-column: 8;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(718) {
+  grid-column: 9;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(719) {
+  grid-column: 10;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(720) {
+  grid-column: 11;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(721) {
+  grid-column: 12;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(722) {
+  grid-column: 13;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(723) {
+  grid-column: 14;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(724) {
+  grid-column: 15;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(725) {
+  grid-column: 16;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(726) {
+  grid-column: 17;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(727) {
+  grid-column: 18;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(728) {
+  grid-column: 19;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(729) {
+  grid-column: 20;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(730) {
+  grid-column: 20;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(731) {
+  grid-column: 21;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(732) {
+  grid-column: 22;
+  grid-row: 26;
+  background-color: var(--black);
+}
+.pikachu:nth-child(733) {
+  grid-column: 23;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(734) {
+  grid-column: 24;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(735) {
+  grid-column: 25;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(736) {
+  grid-column: 26;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(737) {
+  grid-column: 27;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(738) {
+  grid-column: 28;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(739) {
+  grid-column: 29;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(740) {
+  grid-column: 30;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(741) {
+  grid-column: 31;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(742) {
+  grid-column: 32;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(743) {
+  grid-column: 33;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(744) {
+  grid-column: 34;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(745) {
+  grid-column: 35;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(746) {
+  grid-column: 36;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(747) {
+  grid-column: 37;
+  grid-row: 26;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1125) {
+  grid-column: 38;
+  grid-row: 26;
+  background-color: var(--black);
+}
+.pikachu:nth-child(748) {
+  grid-column: 6;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(749) {
+  grid-column: 7;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(750) {
+  grid-column: 8;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(751) {
+  grid-column: 9;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(752) {
+  grid-column: 10;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(753) {
+  grid-column: 11;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(754) {
+  grid-column: 12;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(755) {
+  grid-column: 13;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(756) {
+  grid-column: 14;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(757) {
+  grid-column: 15;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(758) {
+  grid-column: 16;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(759) {
+  grid-column: 17;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(760) {
+  grid-column: 18;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(761) {
+  grid-column: 19;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(762) {
+  grid-column: 20;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(763) {
+  grid-column: 20;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(764) {
+  grid-column: 21;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(765) {
+  grid-column: 22;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(766) {
+  grid-column: 23;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(767) {
+  grid-column: 24;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(768) {
+  grid-column: 25;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(769) {
+  grid-column: 26;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(770) {
+  grid-column: 27;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(771) {
+  grid-column: 28;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(772) {
+  grid-column: 29;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(773) {
+  grid-column: 30;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(774) {
+  grid-column: 31;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(775) {
+  grid-column: 32;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(776) {
+  grid-column: 33;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(777) {
+  grid-column: 34;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(778) {
+  grid-column: 35;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(779) {
+  grid-column: 36;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(780) {
+  grid-column: 37;
+  grid-row: 27;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1126) {
+  grid-column: 38;
+  grid-row: 27;
+  background-color: var(--black);
+}
+.pikachu:nth-child(781) {
+  grid-column: 6;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(782) {
+  grid-column: 7;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(783) {
+  grid-column: 8;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(784) {
+  grid-column: 9;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(785) {
+  grid-column: 10;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(786) {
+  grid-column: 11;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(787) {
+  grid-column: 12;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(788) {
+  grid-column: 13;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(789) {
+  grid-column: 14;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(790) {
+  grid-column: 15;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(791) {
+  grid-column: 16;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(792) {
+  grid-column: 17;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(793) {
+  grid-column: 18;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(794) {
+  grid-column: 19;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(795) {
+  grid-column: 20;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(796) {
+  grid-column: 20;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(797) {
+  grid-column: 21;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(798) {
+  grid-column: 22;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(799) {
+  grid-column: 23;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(800) {
+  grid-column: 24;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(801) {
+  grid-column: 25;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(802) {
+  grid-column: 26;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(803) {
+  grid-column: 27;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(804) {
+  grid-column: 28;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(805) {
+  grid-column: 29;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(806) {
+  grid-column: 30;
+  grid-row: 28;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(807) {
+  grid-column: 31;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(808) {
+  grid-column: 32;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(809) {
+  grid-column: 33;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(810) {
+  grid-column: 34;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(811) {
+  grid-column: 35;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(812) {
+  grid-column: 36;
+  grid-row: 28;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(813) {
+  grid-column: 37;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1127) {
+  grid-column: 38;
+  grid-row: 28;
+  background-color: var(--black);
+}
+.pikachu:nth-child(814) {
+  grid-column: 6;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(815) {
+  grid-column: 7;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(816) {
+  grid-column: 8;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(817) {
+  grid-column: 9;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(818) {
+  grid-column: 10;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(819) {
+  grid-column: 11;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(820) {
+  grid-column: 12;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(821) {
+  grid-column: 13;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(822) {
+  grid-column: 14;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(823) {
+  grid-column: 15;
+  grid-row: 29;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(824) {
+  grid-column: 16;
+  grid-row: 29;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(825) {
+  grid-column: 17;
+  grid-row: 29;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(826) {
+  grid-column: 18;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(827) {
+  grid-column: 19;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(828) {
+  grid-column: 20;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(829) {
+  grid-column: 20;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(830) {
+  grid-column: 21;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(831) {
+  grid-column: 22;
+  grid-row: 29;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(832) {
+  grid-column: 23;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(833) {
+  grid-column: 24;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(834) {
+  grid-column: 25;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(835) {
+  grid-column: 26;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(836) {
+  grid-column: 27;
+  grid-row: 29;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(837) {
+  grid-column: 28;
+  grid-row: 29;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(838) {
+  grid-column: 29;
+  grid-row: 29;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(839) {
+  grid-column: 30;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(840) {
+  grid-column: 31;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(841) {
+  grid-column: 32;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(842) {
+  grid-column: 33;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(843) {
+  grid-column: 34;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(844) {
+  grid-column: 35;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(845) {
+  grid-column: 36;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(846) {
+  grid-column: 37;
+  grid-row: 29;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(1128) {
+  grid-column: 38;
+  grid-row: 29;
+  background-color: var(--black);
+}
+.pikachu:nth-child(847) {
+  grid-column: 6;
+  grid-row: 30;
+  background-color: var(--black);
+}
+.pikachu:nth-child(848) {
+  grid-column: 7;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(849) {
+  grid-column: 8;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(850) {
+  grid-column: 9;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(851) {
+  grid-column: 10;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(852) {
+  grid-column: 11;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(853) {
+  grid-column: 12;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(854) {
+  grid-column: 13;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(855) {
+  grid-column: 14;
+  grid-row: 30;
+  background-color: var(--black);
+}
+.pikachu:nth-child(856) {
+  grid-column: 15;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(857) {
+  grid-column: 16;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(858) {
+  grid-column: 17;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(859) {
+  grid-column: 18;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(860) {
+  grid-column: 19;
+  grid-row: 30;
+  background-color: var(--black);
+}
+.pikachu:nth-child(861) {
+  grid-column: 20;
+  grid-row: 30;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(862) {
+  grid-column: 20;
+  grid-row: 30;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(863) {
+  grid-column: 21;
+  grid-row: 30;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(864) {
+  grid-column: 22;
+  grid-row: 30;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(865) {
+  grid-column: 23;
+  grid-row: 30;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(866) {
+  grid-column: 24;
+  grid-row: 30;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(867) {
+  grid-column: 25;
+  grid-row: 30;
+  background-color: var(--black);
+}
+.pikachu:nth-child(868) {
+  grid-column: 26;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(869) {
+  grid-column: 27;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(870) {
+  grid-column: 28;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(871) {
+  grid-column: 29;
+  grid-row: 30;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(872) {
+  grid-column: 30;
+  grid-row: 30;
+  background-color: var(--black);
+}
+.pikachu:nth-child(873) {
+  grid-column: 31;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(874) {
+  grid-column: 32;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(875) {
+  grid-column: 33;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(876) {
+  grid-column: 34;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(877) {
+  grid-column: 35;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(878) {
+  grid-column: 36;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(879) {
+  grid-column: 37;
+  grid-row: 30;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(1129) {
+  grid-column: 38;
+  grid-row: 30;
+  background-color: var(--black);
+}
+.pikachu:nth-child(880) {
+  grid-column: 6;
+  grid-row: 31;
+  background-color: var(--black);
+}
+.pikachu:nth-child(881) {
+  grid-column: 7;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(882) {
+  grid-column: 8;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(883) {
+  grid-column: 9;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(884) {
+  grid-column: 10;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(885) {
+  grid-column: 11;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(886) {
+  grid-column: 12;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(887) {
+  grid-column: 13;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(888) {
+  grid-column: 14;
+  grid-row: 31;
+  background-color: var(--black);
+}
+.pikachu:nth-child(889) {
+  grid-column: 15;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(890) {
+  grid-column: 16;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(891) {
+  grid-column: 17;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(892) {
+  grid-column: 18;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(893) {
+  grid-column: 19;
+  grid-row: 31;
+  background-color: var(--black);
+}
+.pikachu:nth-child(894) {
+  grid-column: 20;
+  grid-row: 31;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(895) {
+  grid-column: 20;
+  grid-row: 31;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(896) {
+  grid-column: 21;
+  grid-row: 31;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(897) {
+  grid-column: 22;
+  grid-row: 31;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(898) {
+  grid-column: 23;
+  grid-row: 31;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(899) {
+  grid-column: 24;
+  grid-row: 31;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(900) {
+  grid-column: 25;
+  grid-row: 31;
+  background-color: var(--black);
+}
+.pikachu:nth-child(901) {
+  grid-column: 26;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(902) {
+  grid-column: 27;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(903) {
+  grid-column: 28;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(904) {
+  grid-column: 29;
+  grid-row: 31;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(905) {
+  grid-column: 30;
+  grid-row: 31;
+  background-color: var(--black);
+}
+.pikachu:nth-child(906) {
+  grid-column: 31;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(907) {
+  grid-column: 32;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(908) {
+  grid-column: 33;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(909) {
+  grid-column: 34;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(910) {
+  grid-column: 35;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(911) {
+  grid-column: 36;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(912) {
+  grid-column: 37;
+  grid-row: 31;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(1130) {
+  grid-column: 38;
+  grid-row: 31;
+  background-color: var(--black);
+}
+.pikachu:nth-child(913) {
+  grid-column: 6;
+  grid-row: 32;
+  background-color: var(--black);
+}
+.pikachu:nth-child(914) {
+  grid-column: 7;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(915) {
+  grid-column: 8;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(916) {
+  grid-column: 9;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(917) {
+  grid-column: 10;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(918) {
+  grid-column: 11;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(919) {
+  grid-column: 12;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(920) {
+  grid-column: 13;
+  grid-row: 32;
+  background-color: var(--black);
+}
+.pikachu:nth-child(921) {
+  grid-column: 14;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(922) {
+  grid-column: 15;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(923) {
+  grid-column: 16;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(924) {
+  grid-column: 17;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(925) {
+  grid-column: 18;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(926) {
+  grid-column: 19;
+  grid-row: 32;
+  background-color: var(--black);
+}
+.pikachu:nth-child(927) {
+  grid-column: 20;
+  grid-row: 32;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(928) {
+  grid-column: 20;
+  grid-row: 32;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(929) {
+  grid-column: 21;
+  grid-row: 32;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(930) {
+  grid-column: 22;
+  grid-row: 32;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(931) {
+  grid-column: 23;
+  grid-row: 32;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(932) {
+  grid-column: 24;
+  grid-row: 32;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(933) {
+  grid-column: 25;
+  grid-row: 32;
+  background-color: var(--black);
+}
+.pikachu:nth-child(934) {
+  grid-column: 26;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(935) {
+  grid-column: 27;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(936) {
+  grid-column: 28;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(937) {
+  grid-column: 29;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(938) {
+  grid-column: 30;
+  grid-row: 32;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(939) {
+  grid-column: 31;
+  grid-row: 32;
+  background-color: var(--black);
+}
+.pikachu:nth-child(940) {
+  grid-column: 32;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(941) {
+  grid-column: 33;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(942) {
+  grid-column: 34;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(943) {
+  grid-column: 35;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(944) {
+  grid-column: 36;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(945) {
+  grid-column: 37;
+  grid-row: 32;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(1131) {
+  grid-column: 38;
+  grid-row: 32;
+  background-color: var(--black);
+}
+.pikachu:nth-child(947) {
+  grid-column: 7;
+  grid-row: 33;
+  background-color: var(--black);
+}
+.pikachu:nth-child(948) {
+  grid-column: 8;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(949) {
+  grid-column: 9;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(950) {
+  grid-column: 10;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(951) {
+  grid-column: 11;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(952) {
+  grid-column: 12;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(953) {
+  grid-column: 13;
+  grid-row: 33;
+  background-color: var(--black);
+}
+.pikachu:nth-child(954) {
+  grid-column: 14;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(955) {
+  grid-column: 15;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(956) {
+  grid-column: 16;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(957) {
+  grid-column: 17;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(958) {
+  grid-column: 18;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(959) {
+  grid-column: 19;
+  grid-row: 33;
+  background-color: var(--black);
+}
+.pikachu:nth-child(960) {
+  grid-column: 20;
+  grid-row: 33;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(961) {
+  grid-column: 20;
+  grid-row: 33;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(962) {
+  grid-column: 21;
+  grid-row: 33;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(963) {
+  grid-column: 22;
+  grid-row: 33;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(964) {
+  grid-column: 23;
+  grid-row: 33;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(965) {
+  grid-column: 24;
+  grid-row: 33;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(966) {
+  grid-column: 25;
+  grid-row: 33;
+  background-color: var(--black);
+}
+.pikachu:nth-child(967) {
+  grid-column: 26;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(968) {
+  grid-column: 27;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(969) {
+  grid-column: 28;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(970) {
+  grid-column: 29;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(971) {
+  grid-column: 30;
+  grid-row: 33;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(972) {
+  grid-column: 31;
+  grid-row: 33;
+  background-color: var(--black);
+}
+.pikachu:nth-child(973) {
+  grid-column: 32;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(974) {
+  grid-column: 33;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(975) {
+  grid-column: 34;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(976) {
+  grid-column: 35;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(977) {
+  grid-column: 36;
+  grid-row: 33;
+  background-color: var(--cheek);
+}
+.pikachu:nth-child(978) {
+  grid-column: 37;
+  grid-row: 33;
+  background-color: var(--black);
+}
+.pikachu:nth-child(979) {
+  grid-column: 8;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(980) {
+  grid-column: 9;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(981) {
+  grid-column: 10;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(982) {
+  grid-column: 11;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(983) {
+  grid-column: 12;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(984) {
+  grid-column: 13;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(985) {
+  grid-column: 14;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(986) {
+  grid-column: 15;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(987) {
+  grid-column: 16;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(988) {
+  grid-column: 17;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(999) {
+  grid-column: 18;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1000) {
+  grid-column: 19;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1001) {
+  grid-column: 20;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1002) {
+  grid-column: 20;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1003) {
+  grid-column: 21;
+  grid-row: 34;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(1004) {
+  grid-column: 22;
+  grid-row: 34;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(1005) {
+  grid-column: 23;
+  grid-row: 34;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(1006) {
+  grid-column: 24;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1007) {
+  grid-column: 25;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1008) {
+  grid-column: 26;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1009) {
+  grid-column: 27;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1010) {
+  grid-column: 28;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1011) {
+  grid-column: 29;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1012) {
+  grid-column: 30;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1013) {
+  grid-column: 31;
+  grid-row: 34;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1014) {
+  grid-column: 32;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1015) {
+  grid-column: 33;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1016) {
+  grid-column: 34;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1017) {
+  grid-column: 35;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1018) {
+  grid-column: 36;
+  grid-row: 34;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1019) {
+  grid-column: 9;
+  grid-row: 35;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1020) {
+  grid-column: 10;
+  grid-row: 35;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1021) {
+  grid-column: 11;
+  grid-row: 35;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1022) {
+  grid-column: 12;
+  grid-row: 35;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1023) {
+  grid-column: 13;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1024) {
+  grid-column: 14;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1025) {
+  grid-column: 15;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1026) {
+  grid-column: 16;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1027) {
+  grid-column: 17;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1028) {
+  grid-column: 18;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1029) {
+  grid-column: 19;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1030) {
+  grid-column: 20;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1031) {
+  grid-column: 20;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1032) {
+  grid-column: 21;
+  grid-row: 35;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1033) {
+  grid-column: 22;
+  grid-row: 35;
+  background-color: var(--tongue);
+}
+.pikachu:nth-child(1034) {
+  grid-column: 23;
+  grid-row: 35;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1035) {
+  grid-column: 24;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1036) {
+  grid-column: 25;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1037) {
+  grid-column: 26;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1038) {
+  grid-column: 27;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1039) {
+  grid-column: 28;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1040) {
+  grid-column: 29;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1041) {
+  grid-column: 30;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1042) {
+  grid-column: 31;
+  grid-row: 35;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1043) {
+  grid-column: 32;
+  grid-row: 35;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1044) {
+  grid-column: 33;
+  grid-row: 35;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1045) {
+  grid-column: 34;
+  grid-row: 35;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1046) {
+  grid-column: 35;
+  grid-row: 35;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1047) {
+  grid-column: 10;
+  grid-row: 36;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1048) {
+  grid-column: 11;
+  grid-row: 36;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1049) {
+  grid-column: 12;
+  grid-row: 36;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1050) {
+  grid-column: 13;
+  grid-row: 36;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1051) {
+  grid-column: 14;
+  grid-row: 36;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1052) {
+  grid-column: 15;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1053) {
+  grid-column: 16;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1054) {
+  grid-column: 17;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1055) {
+  grid-column: 18;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1056) {
+  grid-column: 19;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1057) {
+  grid-column: 20;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1058) {
+  grid-column: 20;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1059) {
+  grid-column: 21;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1060) {
+  grid-column: 22;
+  grid-row: 36;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1061) {
+  grid-column: 23;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1062) {
+  grid-column: 24;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1063) {
+  grid-column: 25;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1064) {
+  grid-column: 26;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1065) {
+  grid-column: 27;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1066) {
+  grid-column: 28;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1067) {
+  grid-column: 29;
+  grid-row: 36;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1068) {
+  grid-column: 30;
+  grid-row: 36;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1069) {
+  grid-column: 31;
+  grid-row: 36;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1070) {
+  grid-column: 32;
+  grid-row: 36;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1071) {
+  grid-column: 33;
+  grid-row: 36;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1072) {
+  grid-column: 34;
+  grid-row: 36;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1073) {
+  grid-column: 12;
+  grid-row: 37;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1074) {
+  grid-column: 13;
+  grid-row: 37;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1075) {
+  grid-column: 14;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1076) {
+  grid-column: 15;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1077) {
+  grid-column: 16;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1078) {
+  grid-column: 17;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1079) {
+  grid-column: 18;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1080) {
+  grid-column: 19;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1081) {
+  grid-column: 20;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1082) {
+  grid-column: 20;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1083) {
+  grid-column: 21;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1084) {
+  grid-column: 22;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1085) {
+  grid-column: 23;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1086) {
+  grid-column: 24;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1087) {
+  grid-column: 25;
+  grid-row: 37;
+  background-color: var(--yellow);
+}
+.pikachu:nth-child(1088) {
+  grid-column: 26;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1089) {
+  grid-column: 27;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1090) {
+  grid-column: 28;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1091) {
+  grid-column: 29;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1092) {
+  grid-column: 30;
+  grid-row: 37;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1093) {
+  grid-column: 31;
+  grid-row: 37;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1094) {
+  grid-column: 32;
+  grid-row: 37;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1095) {
+  grid-column: 14;
+  grid-row: 38;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1096) {
+  grid-column: 15;
+  grid-row: 38;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1097) {
+  grid-column: 16;
+  grid-row: 38;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1098) {
+  grid-column: 17;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1099) {
+  grid-column: 18;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1100) {
+  grid-column: 19;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1101) {
+  grid-column: 20;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1102) {
+  grid-column: 20;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1103) {
+  grid-column: 21;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1104) {
+  grid-column: 22;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1105) {
+  grid-column: 23;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1106) {
+  grid-column: 24;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1107) {
+  grid-column: 25;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1108) {
+  grid-column: 26;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1109) {
+  grid-column: 27;
+  grid-row: 38;
+  background-color: var(--yellow-shadow);
+}
+.pikachu:nth-child(1110) {
+  grid-column: 28;
+  grid-row: 38;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1111) {
+  grid-column: 29;
+  grid-row: 38;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1112) {
+  grid-column: 30;
+  grid-row: 38;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1113) {
+  grid-column: 17;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1114) {
+  grid-column: 18;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1115) {
+  grid-column: 19;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1116) {
+  grid-column: 20;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1117) {
+  grid-column: 20;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1118) {
+  grid-column: 21;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1119) {
+  grid-column: 22;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1120) {
+  grid-column: 23;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1121) {
+  grid-column: 24;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1122) {
+  grid-column: 25;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1123) {
+  grid-column: 26;
+  grid-row: 39;
+  background-color: var(--black);
+}
+.pikachu:nth-child(1124) {
+  grid-column: 27;
+  grid-row: 39;
+  background-color: var(--black);
 }
